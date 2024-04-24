@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Crear nuevo usuario</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.username.label }}<br>
+        {{ form.username(size=32) }}<br>
+        {% for error in form.username.errors %}
+        <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.first_name.label }}<br>
+        {{ form.first_name(size=32) }}<br>
+        {% for error in form.first_name.errors %}
+        <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.last_name.label }}<br>
+        {{ form.last_name(size=32) }}<br>
+        {% for error in form.last_name.errors %}
+        <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.member_id.label }}<br>
+        {{ form.member_id(size=32) }}<br>
+        {% for error in form.member_id.errors %}
+        <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.initial_password.label }}<br>
+        {{ form.initial_password(size=32) }}<br>
+        {% for error in form.initial_password.errors %}
+        <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+
+<div style="margin-top: 20px;">
+    <h4>Instrucciones para el llenado del formulario:</h4>
+    <ul>
+        <li>El <b>nombre de usuario</b> debe ser estructurado adecuadamente; una manera recomendada es unir la(s) inicial(es) del apellido con el nombre para hacerlo único (por ejemplo: <b>juanpe</b>  para Juan Perez Espinoza)</li>
+        <li>El <b>nombre de usuario</b> debe ser completamente en minusculas</li>
+        <li>Si el <b>nombre de usuario</b> es muy similar a otro existente, puedes agrear otra letra del apellido para hacerlo único (por ejemplo: <b>juanpec</b>  para Juan Pedraza Echeverría)</li>
+        <li>Asegúrate de que el <b>nombre</b> y <b>apellido</b> estén escritos correctamente.</li>
+        <li>El <b># Miembro</b> debe ser siempre numérico y de exactamente 3 dígitos (por ejemplo: 001, 025, 256).</li>
+        <li>Establezca una <b>Contraseña Inicial</b> basada en los detalles del usuario y asegúrate de anotarla o guardarla en un lugar seguro para evitar su pérdida. </li>
+    </ul>
+</div>
+
+{% endblock %}
