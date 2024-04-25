@@ -254,10 +254,9 @@ def home():
     # Admin users see the manage users button
     return render_template('home.html', title='Home')
 
-# outside any if __name__ == '__main__' block
 def create_database(app):
     with app.app_context():
         db.create_all()
 if __name__ == '__main__':
-    create_database(app)  # This will be called for local development
-#    app.run(debug=True)   # You can comment this out for production
+    create_database(app)
+#    app.run(debug=True)
