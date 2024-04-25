@@ -1,1 +1,1 @@
-web: your_start_command_here
+web: python app.py
