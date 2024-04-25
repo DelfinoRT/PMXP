@@ -6,11 +6,19 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}Flask App{% endblock %}</title>
+    <!-- Ensure you link your CSS here if you have custom styles for flash messages -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <header>
-        <!-- Your navbar or header content goes here -->
-    </header>
+    <div class="container" role="alert" aria-live="assertive">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
     <main>
         {% block content %}
         {% endblock %}
@@ -18,5 +26,15 @@
     <footer>
         <!-- Your footer content goes here -->
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const flashMessages = document.querySelectorAll('.flash-success, .flash-info, .flash-error');
+            flashMessages.forEach(message => {
+                setTimeout(() => {
+                    message.style.display = 'none';
+                }, 5000); // messages will be hidden after 5 seconds
+            });
+        });
+        </script>
 </body>
 </html>

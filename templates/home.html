@@ -1,18 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PeriquitosMex - Inicio</title>
+  <!-- External stylesheet for Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <!-- Link to custom stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FH9JT502WW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FH9JT502WW');
+</script>
 <body>
-    <h1>Welcome to the Parrot Breeding Association Website!</h1>
+<div class="login-section">
     {% if current_user.is_authenticated %}
-    <p>Logged in as {{ current_user.username }}. <a href="{{ url_for('logout') }}">Logout</a></p>
+        <p>Bienvenido!</p>
+        <p>Usuario: {{ current_user.username }}</p>
+        <p>{{ current_user.first_name }} {{ current_user.last_name }}</p>
+        <p>Miembro PMX #{{ current_user.member_id }}</p>
+        <br>
+
+        <p><a href="{{ url_for('profile') }}">⏿ Ver perfil</a><a href="{{ url_for('logout') }}">⛌ Salir</a></p>
+        {% if current_user.username.startswith("ADM-") %}
+            <a href="{{ url_for('manage_users') }}">☰ Gestionar Usuarios</a>
+        {% endif %}
     {% else %}
-    <p><a href="{{ url_for('login') }}">Login</a> or <a href="{{ url_for('register') }}">Register</a></p>
+        <p><a href="{{ url_for('login') }}">Login</a></p>
     {% endif %}
-    {% if current_user.is_authenticated and current_user.username.startswith("ADM-") %}
-    <a href="{{ url_for('manage_users') }}">Manage Users</a>
-{% endif %}
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="hideSmall" id="mySidebar">
+  <br>
+  <div class="container1">
+    <div class="small-logo">
+      <!-- Logo image -->
+      <img src="{{ url_for('static', filename='images/pmx-logo-round.png') }}">
+    </div>
+  </div>
+  <div class="navMenu">
+    <!-- Navigation links -->
+    <a href="index.html" onclick="action_close()" class="navButton active">Inicio</a> 
+    <a href="eventos.html" onclick="action_close()" class="navButton">Eventos</a> 
+    <a href="#" onclick="action_close()" class="navButton">Contenido</a> 
+    <a href="#" onclick="action_close()" class="navButton">Miembros</a> 
+    <a href="#" onclick="action_close()" class="navButton">Galería</a>
+    <a href="formatos.html" onclick="action_close()" class="navButton">Formatos</a>
+    <a href="contacto.html" onclick="action_close()" class="navButton">Contacto</a>
+  </div>
+</nav>
+
+<!-- Top menu only on small screens -->
+<header class="container1 responsiveTitle hideLarge">
+  <!-- Button to open sidebar -->
+  <a href="javascript:void(0)" onclick="action_open()" class="hamburguer">Ξ</a>
+  <span>PeriquitosMex</span>
+</header>
+
+<!-- Dark overlay effect when opening sidebar on small screens -->
+<div class="overlay hideLarge" onclick="action_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<!-- Main content -->
+<div class="mainContainer">
+
+  <div class="container1">
+    <!-- Main images -->
+    <img src="{{ url_for('static', filename='images/main-pmx-img.png') }}" class="image_full">
+    <img src="{{ url_for('static', filename='images/main-pmx-img2.png') }}" class="image_mobile">
+  </div>
+
+  <div class="container1">
+    <!-- Section title -->
+    <h1 class="titulo"><b>Quiénes somos?</b></h1>
+    <!-- Horizontal line separator -->
+    <hr style="width:50px;border:5px solid rgb(204, 185, 15)" class="w3-round">
+    <!-- Section content -->
+    <p class="paragraph1">
+      Somos una entusiasta comunidad de aficionados dedicados a la crianza deportiva y recreativa 
+      de periquitos australianos y diversas aves de ornato, con un profundo interés en el fascinante 
+      mundo de la <strong>ornitología</strong>. 
+    </p>
+    <p class="paragraph1">
+      A lo largo de nuestra trayectoria, nos hemos fortalecido y crecido como comunidad, proporcionando 
+      una <strong>plataforma interactiva</strong> donde los criadores pueden compartir sus experiencias, conocimientos, 
+      proyectos e ideas, todo en relación con este apasionante hobbie.
+    </p>
+    <p class="paragraph1">
+      Generamos <strong>contenido</strong> informativo y educativo, y fomentamos la realización de reuniones, exposiciones, 
+      conferencias y <strong>competencias</strong>, con el objetivo de promover un ambiente de aprendizaje, intercambio y 
+      camaradería en torno a nuestra pasión por las aves.
+    </p>
+  </div>
+
+  <div class="container1">
+    <!-- Section title -->
+    <h1 class="titulo"><b>Un vistazo a nuestra historia</b></h1>
+    <!-- Horizontal line separator -->
+    <hr style="width:50px;border:5px solid rgb(204, 185, 15)" class="w3-round">
+    <!-- Section content -->
+    <p class="paragraph1">
+      En el año 2009, un grupo de amigos mexicanos decidió que era el momento adecuado para crear su 
+      propio foro para discutir y generar contenido sobre todo lo relacionado con los periquitos 
+      australianos. La idea surgió de sus experiencias en foros internacionales, especialmente los 
+      españoles que ya se habían centrado en este tema durante muchos años.
+    </p>
+    <p class="paragraph1">
+      Gracias a Rene Borjon, nació PeriquitosMex como un foro en internet. Después de varios intentos y 
+      pruebas, el foro más estable se estableció el 3 de noviembre de 2009. Originalmente alojado en 
+      línea usando el servicio de miarroba con la dirección www.periquitosmex.mforos.com, este foro 
+      original está actualmente deshabilitado debido a que fue eliminado.
+    <p>
+    <p class="paragraph1">
+      En enero de 2012, el servidor de miarroba pasó por un mantenimiento general, lo que resultó en la 
+      inaccesibilidad de los foros por varios días. Motivados por el deseo de continuar la discusión 
+      sobre periquitos y mantener el contacto entre los amigos del hobby, Ezequiel Gonzales, uno de los 
+      administradores del foro en miarroba, decidió crear un grupo de Facebook como una extensión 
+      temporal del foro de PeriquitosMex. Este acontecimiento ocurrió el 21 de enero de 2012.
+    </p>
+    <p class="paragraph1">
+      PeriquitosMex ha crecido y se ha fortalecido en el transcurso del tiempo gracias a sus miembros y 
+      al equipo de administración. Hemos definido nuestros ideales como grupo y hemos logrado éxitos 
+      significativos, incluyendo eventos, competiciones y proyectos como la Revista Ornitológica PeriquitosMex.<br> 
+      Hoy en día, PeriquitosMex es un referente en la comunidad de ornitólogos en México y en otros países. 
+      Nos hemos constituido legalmente como una asociación civil y hemos logrado la incorporación a la 
+      World Budgerigar Organization <a href="http://www.world-budgerigar.org/">(WBO)</a> y a International Budgerugar 
+      Organization (IBO).
+    </p>
+    <p class="paragraph1">
+      Ha sido un camino con altibajos, pero una constante ha sido nuestro deseo de mejorar y profesionalizar 
+      la cría de aves de ornato, aprender juntos y ser una plataforma que impulse a los criadores a dar lo 
+      mejor de sí mismos.<br>
+      Gracias por acompañarnos en este viaje y en lo que está por venir.
+    </p>
+  </div>
+
+  <div class="container1">
+    <!-- Section title -->
+    <h1 class="titulo"><b>Qué hacemos?</b></h1>
+    <!-- Horizontal line separator -->
+    <hr style="width:50px;border:5px solid rgb(204, 185, 15)" class="w3-round">
+    <!-- Section content -->
+    <p class="paragraph1">Ofrecemos y mantenemos una plataforma de encuentro.<br>
+      En PeriquitosMex, llevamos a cabo una serie de actividades centradas en el apoyo y desarrollo de 
+      la ornitología y la cría de aves de ornato. Parte fundamental de esta actividad es nuestro grupo en 
+      Facebook que se abre para compartir experiencias y conocimientos, donde cada miembro puede aportar y 
+      aprender de los demás.</p>
+    <p class="paragraph1">Compartimos y facilitamos el intercambio de conocimiento.<br> 
+      Parte de nuestras acciones se basan en también en la creación y divulgación de contenido. Distribuimos 
+      contenido informativo y educativo sobre ornitología, proporcionando una herramienta valiosa para los 
+      nuevos criadores y aquellos que buscan expandir su conocimiento.<br>
+      Esto se logra a través de la Revista Ornitológica PMX, artículos expuestos en el grupo, charlas presenciales 
+      y online, entre otras actividades.</p>
+    <p class="paragraph1">Reuniones y eventos<br>
+      Promovemos y organizamos eventos y competencias que permiten a los miembros de la comunidad mostrar sus aves, 
+      aprender de los expertos y ganar reconocimiento por sus logros. Estas actividades incluyen exposiciones, 
+      charlas y competencias a nivel nacional.</p>
+  </div>
+
+  <div class="container1">
+    <!-- Horizontal line separator -->
+    <hr style="width:50px;border:5px solid rgba(204, 185, 15, 0)" class="w3-round">
+    <!-- Section content -->
+    <p class="paragraph1">Deseamos que lo que nuestra plataforma te ofrece sea de tu agrado y estamos siempre dispuestos a analizar nuevas propuestas de contenido, agradecemos cualquier comentario o sugerencia que tengas. <br> No dudes en <a href="https://www.facebook.com/groups/PeriquitosMexAC/">contactarnos</a>!</p>
+  </div>
+  <div>
+    <a href="https://info.flagcounter.com/Ox0n"><img src="https://s11.flagcounter.com/count2/Ox0n/bg_586103/txt_BBD60B/border_F2E63F/columns_2/maxflags_10/viewers_Visitantes/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  </div>
+  <div class="container1">
+    <p class="paragraph1">Gracias tambien por el apoyo a todos los miembros y grupos que actualmente forman parte de la familia PeriquitosMex:</p>
+  </div>
+  <div class="logos-box">
+    <div class="logo-group">
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-AvesMich.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-PeriquitosIrapuato.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-Surpas.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-AvesDurango.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-AvesVeracruz.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-AvesZacatecas.png') }}"></a>
+    </div>
+    <div class="logo-group">
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-BudgerigarClubPuebla.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-CAR.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-COCH.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-PeriquitosChiapas.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-PeriquitosOaxacaMex.png') }}"></a>
+      <a href="#"><img src="{{ url_for('static', filename='images/Logo-PueOax.png') }}"></a>
+    </div>
+  </div>
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<div class="footer container1">
+  <p>&copy; 2024 <strong>PeriquitosMex</strong> <br> Desarrollado por <a href="https://www.linkedin.com/in/delfino-rosales/" title="LinkedIn Delfino" target="_blank">Delfino Rosales</a></p>
+</div> 
+
+<!-- Script for sidebar functionality -->
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>

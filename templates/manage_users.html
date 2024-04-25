@@ -1,20 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 {% extends "base.html" %}
 {% block content %}
-<h2>Manage Users</h2>
-<form method="POST">
-    <input type="text" name="search" placeholder="Search users...">
-    <input type="submit" value="Search">
-</form>
+<div class="user-management-container">
+    <h2>Gestión de usuarios</h2>
+    <form method="POST" class="search-form">
+        <input type="text" name="search" placeholder="Buscar usuarios..." class="search-input">
+        <input type="submit" value="Buscar">
+    </form>
 
-<!-- Link to create a new user -->
-<a href="{{ url_for('admin_create_user') }}">Create New User</a>
+    <!-- Link to create a new user -->
+    <a href="{{ url_for('admin_create_user') }}" class="create-user-link">Crear usuario</a>
 
-<ul>
-{% for user in users %}
-    <li>{{ user.username }} | {{ user.first_name }} {{ user.last_name }} | {{ user.member_id }}
-        <a href="{{ url_for('change_user_password', user_id=user.id) }}">Change Password</a> 
-        <a href="{{ url_for('manage_user_details', user_id=user.id) }}">Manage Details</a>
-    </li>
-{% endfor %}
-</ul>
+    <!-- User list now as a table with header row for column descriptions -->
+    <table class="user-list">
+        <thead>
+            <tr>
+                <th>Usuario</th>
+                <th>Nombre Completo</th>
+                <th>Miembro #</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+                <th>Ciudad</th>
+                <th>Estado</th>
+                <th>Aviario</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+                <tr>
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.first_name }} {{ user.last_name }}</td>
+                    <td>{{ user.member_id }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.phone }}</td>
+                    <td>{{ user.city }}</td>
+                    <td>{{ user.state }}</td>
+                    <td>{{ user.aviary }}</td>
+                    <td class="user-actions">
+                        <a href="{{ url_for('change_user_password', user_id=user.id) }}" class="action-link">Cambiar Contraseña</a>
+                        <a href="{{ url_for('manage_user_details', user_id=user.id) }}" class="action-link">Actualizar Datos</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('home') }}" class="back-link">⬅ Regresar a inicio</a>
+</div>
+<a href="#" class="back-to-top">Volver arriba ↑</a>
 {% endblock %}
+<script>
+    // Script for the "Back to Top" button
+    let mybutton = document.querySelector(".back-to-top");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener('click', function(){
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
+</script>
+</body>
+</html>

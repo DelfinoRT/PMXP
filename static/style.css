@@ -1,0 +1,646 @@
+/* Example styling for flash messages based on category */
+.flash-danger {
+    color: red;
+    font-weight: bold;
+}
+
+/* Sticking the login section to the top-right and styling */
+.login-section {
+    position: fixed; /* Changed from 'relative' to 'fixed' to stick it to the window */
+    top: 0; /* Align to the top of the window */
+    right: 0; /* Align to the right side of the window */
+    z-index: 99900; /* Ensure it's on top of other content. You may adjust this value as needed */
+    background-color: rgba(223, 223, 166, 0.7); /* Yellow background with some transparency */
+    padding: 7px; /* Add some spacing inside the yellow box */
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    margin: 5px; /* Adds a little margin from the window edges */
+    font-size: 0.9rem; /* Adjusted font size for better fit; tweak as necessary */
+    font-size: 10px;
+}
+.login-section p, .login-section a {
+    margin: 2px 0; /* Reducing the vertical spacing between lines */
+    display: block; /* Ensures <a> tags also receive the  margin */
+}
+/* Further reduce margin/padding on <p> tags to tighten the spacing */
+.login-section p {
+    margin: 1px 0;
+    padding: 0;
+}
+/* Adjust the link styles within the login-section for consistency */
+.login-section a {
+    color: #002699; /* Example color: A darker blue for contrast */
+    background-color: transparent; /* Ensures background isn’t affecting the appearance */
+    text-decoration: underline; /* Suggests clickability */
+}
+/* Optionally, add a hover effect for links */
+.login-section a:hover {
+    color: #0000cc; /* Slightly lighter blue on hover */
+}
+
+/* Reset and base styles */
+html {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background: #DFD2B3;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+}
+
+/* Header styles */
+header {
+    z-index: 100 !important;
+}
+
+/* Horizontal rule styles */
+hr {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+  }
+/* Navigation button styles */
+.navButton {
+    width: 88%;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: inherit;
+    padding: 8px 16px;
+    text-align: left;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.navButton:hover {
+    color: rgb(245, 241, 18);
+    background-color: rgb(87, 85, 31);
+    border: 1px solid rgb(245, 241, 18);
+}
+
+/* Navigation menu styles */
+.navMenu {
+    width: 100%;
+    min-width: 100%;
+}
+
+/* Hamburger icon styles */
+.hamburguer {
+    font-size: 30px;
+    color: rgb(211, 208, 38);
+    margin-right: 10px;
+    top: 0;
+}
+
+/* Responsive title styles */
+.responsiveTitle {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    color: rgb(211, 208, 38);
+    font-size: 26px;
+    background-color: rgb(32, 32, 9);
+}
+
+/* Overlay styles */
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.832);
+    z-index: 2;
+}
+
+/* Responsive title bar styles */
+.responsiveTitlebar {
+    border-top: 6px solid #ccc;
+}
+
+/* Active navigation link styles */
+.active {
+    color: rgb(245, 241, 18);
+    background-color: rgb(87, 85, 31);
+    border: 1px solid rgb(245, 241, 18);
+}
+
+/* Title styles */
+.titulo {
+    color: rgb(82, 79, 3);
+}
+
+.titulo2 {
+    color: #959436;
+}
+
+.titulo2:hover {
+    color: rgb(102, 100, 14);
+}
+
+.profile-container {
+    /* Ensure consistent padding around the profile info */
+    padding: 16px;
+    max-width: 600px; /* or width as per design requirements */
+    margin: auto; /* Center align the profile container */
+    background-color: rgba(255, 255, 255, 0.9); /* optionally, set a slightly transparent background */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    border-radius: 10px; /* Optionally, round the corners for a softer look */
+}
+.profile-info {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+.profile-info li {
+    color: #2c3e50; /* A dark shade for contrast against the potential light background */
+    padding: 8px; /* Adds vertical spacing between list items */
+}
+
+.profile-detail {
+    background-color: rgba(233, 233, 192, 0.7); /* optionally, set a slightly transparent background */
+    list-style-type: none; /* Removes bullet points from the list */
+}
+.user-management-container {
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+}
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.search-input, .search-button, .create-user-link, .back-link,.action-link {
+    border: 1px solid #ccd;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: #333;
+}
+.action-link, .back-link {
+    color: rgb(63, 66, 68);
+    cursor: pointer;
+}
+
+.back-link {
+    background-color: #6c757d;
+    color: #ccd;
+    margin-top: 12px;
+}
+
+/* Center text in table cells */
+.user-list th, .user-list td {
+    text-align: center;
+    vertical-align: middle;
+}
+/* Highlight the entire row on hover */
+.user-list tr:hover {
+    background-color: #f4eac9; /* Light grey, for example */
+}
+
+.create-user-link {
+    font-size: 16px;
+    background-color: #28a745;
+    padding: 4px;
+    color: azure;
+}
+.user-list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 12px
+}
+.user-list li {
+    border-bottom: 1px solid #ccd;
+    padding: 5px;;
+}
+.user-list li:hover {
+    background-color: #d0ceb7;
+}
+.user-actions {
+    float: right;
+}
+.action-link {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.action-link:hover {
+    background-color: #e1e0d1;
+}
+
+/* Image container styles */
+.container1 img {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.back-to-top {
+    position: fixed; /* Stick it to a fixed position on the page */
+    bottom: 20px; /* Distance from the bottom */
+    right: 30px; /* Distance from the right */
+    z-index: 99; /* Ensure it sits above other content */
+    border: none; /* Remove any default border */
+    outline: none; /* Remove outline on focus (for accessibility, you might want to manage focus differently) */
+    background-color: #333; /* Button background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Change mouse hover to indicate clickability */
+    padding: 10px; /* Padding inside the button */
+    border-radius: 5px; /* Optional: round corners */
+  }
+  .back-to-top:hover {
+    background-color: #555; /* Slightly darker on hover */
+  }
+
+  .non-editable {
+    border: 1px solid black;
+    background-color: rgb(247, 221, 211);
+    border-radius: 4px;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .flash-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.flash-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.flash-info {
+    color: #17a2b8;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.image_full {
+    display: block;
+}
+
+.image_mobile {
+    display: none;
+}
+
+/* Responsive styles for image display */
+@media (max-width: 740px) and (min-width: 320px) {
+    .image_full {
+        display: none;
+    }
+  
+    .image_mobile {
+        display: block;
+    }
+}
+
+/* Small logo styles */
+.small-logo img {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    display: block;
+}
+
+/* Footer styles */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #b1a588;
+    text-align: center;
+    padding-top: 50px;
+    border-top: 1px solid #69604b;
+    color: #4b4332;
+}
+
+.footer a:link {
+    /* Styles for unvisited links */
+    color: #332913;
+}
+
+.footer a:visited {
+    /* Styles for visited links */
+    color: #332913;
+}
+
+/* Container styles */
+.container1 {
+    padding: 16px;
+}
+
+/* Main container styles */
+.mainContainer {
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+/* Paragraph styles */
+.paragraph1 {
+    color: rgb(17, 17, 16);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Sidebar styles */
+#mySidebar {
+    z-index: 3;
+    width: 300px;
+    font-weight: bold;
+    top: 0;
+    color: rgb(211, 208, 38);
+    background-color: rgb(32, 32, 9);
+    border-right: 1px solid rgb(245, 241, 18);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+/* Responsive layout styles */
+@media (min-width: 993px) {
+    .hideLarge {
+        display: none;
+    }
+    
+    .hideSmall {
+        display: block !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .hideSmall {
+        display: none;
+    }
+    
+    .mainContainer {
+        margin-left: 40px;
+    }
+
+    .titulocontacto {
+        margin-top: 140px;
+    }
+
+    .tituloformato {
+        margin-top: 140px;
+    }
+}
+
+.logo-group {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+	background-color: #33291300;
+	border-color: #33291300;
+}
+
+.logo-group img {
+	padding: 16px;
+    width: auto;
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 15px;
+    max-width: 150px;    max-height: 120px;
+}
+
+.logos-box {
+    margin-bottom: 150px;
+}
+
+#form-main{
+	width:100%;
+	padding-top:0px;
+    padding-bottom: 500px;
+    margin-bottom: 50px;
+}
+
+#form-div {
+	background-color:rgba(185, 186, 116, 0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+    border-radius: 7px;
+  
+}
+
+.montform .feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+/*Inputs styles*/
+.montform .feedback-input:focus{
+	background: #fff;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+
+/* Icons ---------------------------------- */
+.montform  #name{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.montform  #name:focus{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.montform  #email{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.montform  #email:focus{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+	background-size: 30px 30px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.montform  #comment{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.montform  textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+.contact-button{
+	float:left;
+	width: 100%;
+	cursor:pointer;
+	background-color: rgb(87, 85, 31);
+	color:rgb(245, 241, 18);
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+    font-weight:400;
+}
+
+.contact-button:hover{
+	background-color: rgb(245, 241, 18);
+	color: rgb(87, 85, 31);
+}
+	
+.montform  .submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+/*Styles for small screens*/
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+.ImprimirButton {
+    padding: 5px;
+    color: #3c3c3c;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #ebe1cb;
+    border-color: rgb(245, 241, 18);
+}
+
+--------------------
+
+form {
+    display: flex;
+    max-width: 1000px; /* Tamaño máximo del formulario */
+  }
+
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 48%; /* Ajustar el ancho para que quepan dos tablas en una página A4 */
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  /* Tabla de eventos */
+
+  .event-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .event-table th, .event-table td {
+    border: 1px solid #57551f;
+    padding: 8px;
+  }
+  
+
+  
+  .event-table tr:hover {background-color: #918f4a3d;}
+  
+  .event-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #212008;
+    color: #f5f111;
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="profile-container">
+    <h1>Mi perfil</h1>
+    <ul class="profile-info">
+        <li>➩ Usuario:</li>
+        <li class="profile-detail">{{ user.username }}</li>
+        <li>➩ Nombre(s):</li>
+        <li class="profile-detail">{{ user.first_name }}</li>
+        <li>➩ Apellido(s):</li>
+        <li class="profile-detail">{{ user.last_name }}</li>
+        <li>➩ Miembro PMX #:</li>
+        <li class="profile-detail">{{ user.member_id }}</li>
+        <li>➩ Email:</li>
+        <li class="profile-detail">{{ user.email }}</li>
+        <li>➩ Teléfono:</li>
+        <li class="profile-detail">{{ user.phone }}</li>
+        <li>➩ Ciudad:</li>
+        <li class="profile-detail">{{ user.city }}</li>
+        <li>➩ Estado:</li>
+        <li class="profile-detail">{{ user.state }}</li>
+        <li>➩ Aviario:</li>
+        <li class="profile-detail">{{ user.aviary }}</li>
+    </ul>
+
+    <p>Si alguno de tus datos es incorrecto o requieres es algún cambio, contacta al equipo de administración.</p>
+    <a href="{{ url_for('home') }}" class="back-link">⬅ Regresar a inicio</a>
+</div>
+</body>
+</html>

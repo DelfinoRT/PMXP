@@ -1,56 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Usuario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 {% extends "base.html" %}
 {% block content %}
-<h2>Crear nuevo usuario</h2>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <p>
-        {{ form.username.label }}<br>
-        {{ form.username(size=32) }}<br>
-        {% for error in form.username.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.first_name.label }}<br>
-        {{ form.first_name(size=32) }}<br>
-        {% for error in form.first_name.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.last_name.label }}<br>
-        {{ form.last_name(size=32) }}<br>
-        {% for error in form.last_name.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.member_id.label }}<br>
-        {{ form.member_id(size=32) }}<br>
-        {% for error in form.member_id.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.initial_password.label }}<br>
-        {{ form.initial_password(size=32) }}<br>
-        {% for error in form.initial_password.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>{{ form.submit() }}</p>
-</form>
+<div style="max-width: 800px; margin: auto; background-color: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+    <h2>Crear nuevo usuario</h2>
+    <form id="createUserForm" method="POST">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.username.label }}<br>
+            {{ form.username(size=32, id='username') }}<br>
+            {% for error in form.username.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.email.label }}<br>
+            {{ form.email(size=32, id='email') }}<br>
+            {% for error in form.email.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.first_name.label }}<br>
+            {{ form.first_name(size=32, id='first_name') }}<br>
+            {% for error in form.first_name.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.last_name.label }}<br>
+            {{ form.last_name(size=32, id='last_name') }}<br>
+            {% for error in form.last_name.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.member_id.label }}<br>
+            {{ form.member_id(size=32, id='member_id') }}<br>
+            {% for error in form.member_id.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.phone.label }}<br>
+            {{ form.phone(size=32, id='phone') }}<br>
+            {% for error in form.phone.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.city.label }}<br>
+            {{ form.city(size=32, id='city') }}<br>
+            {% for error in form.city.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.state.label }}<br>
+            {{ form.state(size=32, id='state') }}<br>
+            {% for error in form.state.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.aviary.label }}<br>
+            {{ form.aviary(size=32, id='aviary') }}<br>
+            {% for error in form.aviary.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.initial_password.label }}<br>
+            {{ form.initial_password(size=32, id='password') }}<br>
+            {% for error in form.initial_password.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p><input type="submit" id="submitBtn" value="Crear usuario"></p>
+    </form>
+    <a href="{{ url_for('manage_users') }}" class="back-link">⬅ Regresar a Gestión de usuarios</a>
+</div>
 
-<div style="margin-top: 20px;">
+<div style="margin-top: 20px; background-color: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 80%; margin: 20px auto; font-size: 0.9rem;">
     <h4>Instrucciones para el llenado del formulario:</h4>
     <ul>
-        <li>El <b>nombre de usuario</b> debe ser estructurado adecuadamente; una manera recomendada es unir la(s) inicial(es) del apellido con el nombre para hacerlo único (por ejemplo: <b>juanpe</b>  para Juan Perez Espinoza)</li>
-        <li>El <b>nombre de usuario</b> debe ser completamente en minusculas</li>
-        <li>Si el <b>nombre de usuario</b> es muy similar a otro existente, puedes agrear otra letra del apellido para hacerlo único (por ejemplo: <b>juanpec</b>  para Juan Pedraza Echeverría)</li>
-        <li>Asegúrate de que el <b>nombre</b> y <b>apellido</b> estén escritos correctamente.</li>
+        <li>El <b>nombre de usuario</b> debe ser estructurado adecuadamente; una manera recomendada es unir la(s) inicial(es) del apellido con el nombre para hacerlo único (por ejemplo: <b>juanpe</b> para Juan Perez Espinoza).</li>
+        <li>El <b>nombre de usuario</b> debe ser completamente en minúsculas.</li>
+        <li>Si el <b>nombre de usuario</b> es muy similar a otro existente, puedes agregar otra letra del apellido para hacerlo único (ejemplo: <b>juanpec</b> para Juan Pedraza Echeverría).</li>
+        <li>Asegúrate de que el <b>nombre</b>, <b>apellido</b>, <b>email</b>, <b>teléfono</b>, <b>ciudad</b>, <b>estado</b>, y <b>aviario</b> estén escritos correctamente.</li>
         <li>El <b># Miembro</b> debe ser siempre numérico y de exactamente 3 dígitos (por ejemplo: 001, 025, 256).</li>
-        <li>Establezca una <b>Contraseña Inicial</b> basada en los detalles del usuario y asegúrate de anotarla o guardarla en un lugar seguro para evitar su pérdida. </li>
+        <li>El <b>email</b> debe ser una dirección válida que el usuario revise regularmente, pues puede ser utilizada para recuperación de contraseña y notificaciones importantes.</li>
+        <li>El <b>teléfono</b> debe incluir el código de país y área según sea pertinente (por ejemplo: +52 para México).</li>
+        <li>El <b>estado</b> y <b>ciudad</b> deben reflejar la residencia actual del usuario para adecuar envíos o eventos locales cuando sea necesario.</li>
+        <li>Establezca una <b>Contraseña Inicial</b> basada en los detalles del usuario y asegúrate de anotarla o guardarla en un lugar seguro para evitar su pérdida.</li>
     </ul>
 </div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const inputs = document.querySelectorAll('#createUserForm input[type="text"], #createUserForm input[type="password"], #createUserForm input[type="email"], #createUserForm input[type="tel"]');
+    const submitBtn = document.getElementById("submitBtn");
+
+    function validateForm() {
+        let isFormValid = true;
+        inputs.forEach(input => {
+            if (input.value.trim() === "") {
+                isFormValid = false;
+            }
+        });
+        submitBtn.disabled = !isFormValid;
+    }
+
+    inputs.forEach(input => input.addEventListener("keyup", validateForm));
+    validateForm(); // Call on load in case some fields are auto-filled by browser
+});
+</script>
 {% endblock %}
+</body>
+</html>

@@ -1,37 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualizar datos de usuario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 {% extends "base.html" %}
 {% block content %}
-<h2>Manage User Details</h2>
+<div style="max-width: 800px; margin: auto; background-color: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+    <h2>Actualizar datos de usuario</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div class="non-editable">
+            <p>Para evitar problemas con la base de datos, estos datos no son editables:</p>
+            <p>
+                {{ form.username.label }}: {{ form.username(size=32, readonly=true) }} <!-- Assuming username is not editable but presented for reference -->
+                {% for error in form.username.errors %}
+                <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.member_id.label }}: {{ form.member_id(size=32, readonly=true) }} <!-- Similarly, Member ID is not editable but presented for reference -->
+                {% for error in form.member_id.errors %}
+                <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </p>
+        </div>
+        <p>Los siguientes datos sí pueden ser editados:</p>
+        <p>
+            {{ form.first_name.label }}: {{ form.first_name(size=32) }}
+            {% for error in form.first_name.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.last_name.label }}: {{ form.last_name(size=32) }}
+            {% for error in form.last_name.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.email.label }}: {{ form.email(size=32) }}
+            {% for error in form.email.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.phone.label }}: {{ form.phone(size=32) }}
+            {% for error in form.phone.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.city.label }}: {{ form.city(size=32) }}
+            {% for error in form.city.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.state.label }}: {{ form.state(size=32) }}
+            {% for error in form.state.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.aviary.label }}: {{ form.aviary(size=32) }}
+            {% for error in form.aviary.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </p>  
+        <p>{{ form.submit() }}</p>
+    </form>
 
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <p>
-        {{ form.username.label }}: {{ form.username(size=32, readonly=true) }} <!-- Assuming username is not editable but available for reference -->
-        {% for error in form.username.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.first_name.label }}<br>
-        {{ form.first_name(size=32) }}
-        {% for error in form.first_name.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.last_name.label }}<br>
-        {{ form.last_name(size=32) }}
-        {% for error in form.last_name.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.member_id.label }}<br>
-        {{ form.member_id(size=32) }}
-        {% for error in form.member_id.errors %}
-        <span style="color: red;">{{ error }}</span>
-        {% endfor %}
-    </p>
-    
-    <p>{{ form.submit() }}</p>
-</form>
+    <a href="{{ url_for('manage_users') }}" class="back-link" style="display: inline-block; margin-top: 20px;">⬅ Regresar a Gestión de usuarios</a>
+</div>
 {% endblock %}
+</body>
+</html>
