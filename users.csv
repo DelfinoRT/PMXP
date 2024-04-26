@@ -1,0 +1,474 @@
+﻿Criador #;Nombre (s);Apellido paterno;Apellido materno;Estado;Ciudad;Telefono;Email;Aviario
+1;Alberto Pablo;Lomeli;Delgadillo;Jalisco;Guadalajara;3313476586;alomeli_2002@hotmail.com;
+2;Delfino;Rosales;Torres;Jalisco;Zapopan;3310240881;delfino.rt@gmail.com;Aviart
+3;Pedro;Rivera;Aguilar;Michoacán;Zamora;3511274858;psic.rivera@live.com.mx;
+4;Carlos;Delgadillo;Garcia;Jalisco;Guadalajara;3311174611;isaac_lediv@yahoo.com.mx;DEJI
+5;Ismael;Delgado;Abad;Jalisco;Guadalajara;3313028364;isdelgado1abad@gmail.com;
+6;Enrique;Aguilar;Alcantar;Jalisco;Tonalá;3313987369;ea43669@gmail.com;Aviario Aguilar
+7;Luis Servando;De Santiago;Garcia;Jalisco;Guadalajara;3314311292;Luis.servando.de.santiago@gmail.com;La Ninfa Despeinada
+8;Robert;Charles;Wilson;Jalisco;Guadalajara;3328981405;bw@49w.us;
+9;José Ramón;Gómez;Lomelí;Guanajuato;Irapuato;4626045127;pepemon90@gmail.com;RGL
+10;Carlos Alberto;Fuentes;Ramírez;CMDX;Coyoacan;5543501010;mvzcfuentes@gmail.com;Aviario Fuentes MX
+11;Gibhert;Melendez;Vergara;Veracruz;Coatzacoalcos;9213057568;gibhert@gmail.com;
+12;Jessica Maritza;Olguin;Cerda;Jalisco;Guadalajara;4433756987;jessicamolguinc@gmail.com;
+13;Luis Ulises;Flores;Rendis;Chiapas;Tuxtla Gutierrez;9616599219;ulisesabstrac@gmail.com;Aves San Sebastian
+14;Alejandra;Madrigal;Ochoa;Jalisco;Guadalajara;;;
+15;Juan Manuel;Gutierrez;Barajas;Jalisco;Guadalajara;3325994392;juan.gutierres.jmgb@gmail.com;
+16;Esdras Jacob;López;López;Chiapas;Tuxtla Gutiérrez;9611566297;esdras.jacob@hotmail.com;
+17;Liliana Gabriela;Ramirez;Pérez;Jalisco;Guadalajara;3310199768;criadero.gdl@gmail.com;
+18;Felipe de Jesus;Padilla;Fonseca;Baja California Norte;Tijuana;6647198442;jessybarrotes@gmail.com;Jessy Padilla
+19;Javier;Diaz;Ponce;jalisco;guadalajara;3332508902;cloudwes24@hotmail.com;
+20;Daniel;Lutolf;;;;;;
+21;Jose Ascencion;Merino;Garcia;Michoacan;Morelia;4432271990;centrofestermerino@hotmail.com;Aviarrio Merino
+22;Rafael;Maria;Hernandez;Jalisco;Guadalajara;3317729436;rafamarher94@gmail.com;Red Eyes
+23;Jorge Eduardo;Nuñes;Amezcua;Sahuayo;Michoacan;;;
+24;Pedro Octavio;Mata;Medina;;;;;
+25;Juan Carlos;Quintanilla;Arevalo;California;Los Angeles;18187410691;jcquinta1977@gmail.com;Quinta Aviary
+26;Andres;Salazar;;CDMX;;;;
+27;Cristian Alfredo;Molina;Díaz;Sinaloa;Culiacan;6673527370;c.molina.10_16@hotmail.com;Aviario Molina
+28;Ariel Jerónimo;Ortiz;Coronado;JUAREZ;OAXACA;6562150644;ARIELORTIZCORONADO@GMAIL.COM;CASA AZUL
+29;jose martin;galicia;reyes;Jalisco;Guadalajara;3326577210;martingalicia11@gmail.com;martin galicia
+30;Antonio;Perez;Lamazonas;Jalisco;guadalajara;3310695795;alamazonas@gmail.com;alamazonas
+31;luis alberto;Hernandez;Galindo;mexico;municipio de la paz;5578597477;wuicho123092@gmail.com;L&C
+32;Ruben Dario;Atencio;Duque;Florida;clermont;13522162979;rubendarioatencio@gmail.com;rubirds
+33;Jorge;Delgado;Sierra;;;;;
+34;Marco;Hernandez;;;;;;
+35;Luis Enrique;Gutierrez;Ramirez;Jalisco;Tonala;3311841571;luisenrique.gutierrez.ramírez@gmail.com;
+36;Jorge Paulo;Nuñes;Amezcua;Michoacan;Sahuayo;;;FANUGA
+37;Francisco J;Medina;Carranza;Chiapas;Tuxtla Gutierrez;9616580387;paco-medina@hotmail.es;MEDISAN
+38;Oscar;Ventura;Morales;Veracruz;ciudad rio blanco;2722249463;borja2050@hotmail.com;aviario ovm
+39;Moises Isaias;Ulloa;Ascencio;Jalisco;Zapopan;3315590358;miulloa06@live.com.mx;ULLOA
+40;Ricardo;Sanchez;Yeo;Michoacan;Sahuayo;3531007107;lic_ricardosayeo79@hotmail.com;criadero don richar
+41;Miguel Angel;Lopez;Gutierrez;Veracruz;Coatzacoalcos;9211402331;miguel.angel,lopes.gtz@gmail.com;
+42;Antonio;Garcia;;;;;;
+43;Cristian;Magaña;Beltran;Mexico;CDMX;5619371063;ckrys.magbel@gmail.com;MAGBEL
+44;Christian;Gómez;Torres;Guanajuato;Irapuato;4626026167;christiangomeztorres080@gmail.com;
+45;Martin;Lomelí;Cárdenas;Jalisco;Guadalajara;3320899370;lomelicardenasmartin@gmail.com;martinlomeli
+46;Manuel;Martinez;;;;3316020336;;
+47;Veronica;Rosas;Pérez;Oaxaca;Loma Bonita;2741145577;jose-pepexd7@hotmail.com;aviario rosas
+48;Marco antonio;Méndez;Pérez;Pichucalco;Chiapas;9321168319;perezmendez23@hotmail.com;"""tony""ch"
+49;David;Regalado;Hernández;c;cdmx;5532218062;revelacioncaly@hotmail.com;DAVE
+50;Jorge Daniel;Vazquez;Peña;;;;;
+51;Alejandro;Hinojos;Varela;chihuahua;nuevo casa grande;6366991852;Alex.hinojos27@gmail.com;tikis
+52;Rogelio;Velazco;Pacheco;;;;;
+53;Felipe de Jesús;Jacinto;García;Oaxaca;Sta,cruz Xoxocotlan;9513500961;fdjesus.garcia0209@gmail.com;periquitos el trebol
+54;cesar alexis;lopez;guerrero;chiapas;huixtla;9626213104;CALG_GUERRERO@HOTMAIL.COM;Aviario la piedra
+55;Gerardo;Martínez;Hernández;Veracruz;Coatzacoalcos;9211780591;;CASA DEL CANARIN
+56;Cinthia Itzel;Delgado;Ortega;Guanajuato;leon;4772444343;cinthiaitzel@outlook.com;MERAKI
+57;Angel Kary;Jiménez;Hernández;jalisco;guadalajara;3310083602;angelkary94@hotmail.com;D&T
+58;jennifer;varela;Gonzales;morelos;cuernavaca;8682329274;josuemheras@gmail.com;aves donay
+59;Erasmo;Preciado;Moreno;Monterrey;nuevo leon;8119892937;erasmopreciado181@gmail.com;negro_pm
+60;Diego;Xix;Peralta;Yucatán;Ticul;9971223205;dexmo1986@hotmail.com;
+61;Raul;Chicon;Botello;Guanajuato;Irapuato;4622101342;cat.pato.88.rc@gmail.com;
+62;Rodolfo Bernardo;Camacho;Manjarrez;Guanajuato;Irapuato;4621521642;camachofofo@hotmail.com;
+63;fabian;diaz;alfaro;chiapas;tuxtla;9612791316;fabian_915@hotmail.com;Lugafa
+64;Hector Eduardo;Zambrano;Chavarin;Jalisco;Zapopan;3311544241;hectorezch@hotmail.com;Aviario Los Gemelos
+65;Mario Alejandro;Ramirez;Ornelas;Jalisco;Guadalajara;3316707658;mapaluza@hotmail.com;E&M
+66;Ricardo;Velazquez;Delgado;Ciudad de méxico;Gustavo A.Madero;5512952893;son_gothen_gt@hotmail.com;FHB
+67;Eduardo;Orozco;Magaña;Guanajuato;Yuriria;4381071523;eorozco1102@hotmail.com;Aviario EDMAR
+68;Mario;Lopez;Hernandez;Veracruz;Coatzacoalcos;9213061063;NA;YHAVHESHAMA
+69;Juan Jorge;Contreras;Treviño;CDMX;Tlalpan;5585300538;contreras.aviario@gmail.com;Aviario Contreras
+70;cesar alexander;martinez;torres;Chiapas;tuxtla gutierrez;;cesarmtzt15@gmail.com;CAMT
+71;Alexis david;Magdaleno;silva;Guanajuato;Irapuato;4621478867;;
+72;ervin;miranda;ventura;chiapas;huixtla;9622333919;ervinmiranda@gmail.com;M&M
+73;Irvin Agustín;Ku;Flota;Yucatán;Mérida;9994528476;kuirvin54@gmail.com;IMAKI
+74;Benjamin;Becerra;Castro;Puebla;Tehuacan;2381512243;becerra_727@hotmail.com;Aviario BeLLes AiLes BJZ
+75;Jesus Saint;Guerrero;Mata;Tamaulipas;Reynosa;8999363268;saint_guerrero@hotmail.com;JSGM
+76;Luis Alberto;Mendoza;Rodriguez;Chiapas;Tuxtla Gutierrez;9611558086;luis.mendoza.rodriguez@gmail.com;Aviario Mendoza
+77;Rogelio;Lerma;Grijalva;Durango;Durango;6183101137;rogelio_704@hotmail.com;Aves Roxx Lerma
+78;Aron;Aguilar;Lara;Veracruz;Xalapa;2281144006;mantemandarin@hotmail.com;ARO HI BIRDS
+79;Mario Alejandro;Rodríguez;Gonzales;Jalisco;Guadalajara;3317440407;mrodriguezgonzalez732@gmail.com;Aviario Alex A.R.G.
+80;Emilio;Gomez;Aguilera;Michoacan;Zamora;3511197493;NA;
+81;Hugo;Bernal;Cabrera;Mexico;toluca;5513579866;hugo5622@gmail.com;aviario268
+82;Mario;Campos;Mora;Michoacan;Tangamandapio;3511855783;mariocampos618@gmail.com;Aviario Campos
+83;Fidel;Cabrera;Castellano;Puebla;puebla;2226699722;fcabreracastellanos@gmail.com;aviario los delfines
+84;Adriana;Arriaga;Anaya;Guanajuato;Cortazar;4111125683;adriana3a835@gmail.com;aviario el sendero
+85;cristobal;escareño;andrade;Guanajuato;leon;4771553963;cristobalescareno@gmail.com;E.M aviario
+86;Fernando;Ramirez;Hernandez;Guanajuato;Irapuato;4621015945;monark.raul@gmail.com;Hernan
+87;Omar Alejandro;Hernandez;Rico;Guanajuato;Irapuato;4622609845;omar.hernandz1053@gmail.com;omar hernandez
+88;Raul santos;Ramirez;rocha;Guanajuato;Irapuato;4621777409;monark.raul@gmail.com;monark
+89;Francisco Javier;Contreras;González;chiapas;tapachula;9211104878;xavier87gb@gmail.com;QUETZALCOATL
+90;Jose Loreto;Urbia;Medina;Tamaulipas;cd,victoria;8341314969;jloreto90@hotmail.com;LORETO URBIA
+91;Guillermo;Cazares;Hurtado;Michoacan;La piedad;9981564809;memomacao87@gmail.com;LA CANDELARIA
+92;Roberto;Del rio;Valencia;Michoacan;Apatzingan;4531040233;robyerto_5@hotmail.com;APATZINGAN RDR
+93;Jose Eduardo;Zempóaltecalt;Hernandez;Puebla;puebla;2211841869;eduardohdz486@gmail.com;PAM EH
+94;Karlo Martin;Madariaga;Sánchez;Campeche;Calkiní;9961108791;kno1017@hotmail.com;PA' UNO AVIARIO
+95;Athziri Yadira;Vences;Garcia;Michoacan;Morelia;4432005583;atz_ven@hotmail.com;LA CHIKUELA
+96;Jorge Aron;Gil;Cardeña;Yucatán;Merida;9992367090;aar0on.giil33@gmail.com;AVES DEL GORDO
+97;Juan Carlos;Soto;Ortega;Yucatán;Merida;9992758266;jcsoto61@outlook.com;EL SOTO
+98;Luis José;Sosa;Flota;Quintanaroo;José María Morelos;9971119682;aniyamor@hotmail.com;ANILU
+99;Sergio Agustin;Mena;Galera;Yucatán;Ticul;9992446465;tkd_smticul@hotmail.com;TERCIA DE ASES
+100;Juan;Perales;Zamudio;Zacatecas;Fresnillo;4435795919;tienda.de.mascotas.la.jungla@gmail.com;
+101;Elizabeth;Ugalde;Pérez;;CDMX;5513200437;joseluis.ugalde@gmail.com;PERIKLASS
+102;jose Luis;Ugalde;Valdez;;CDMX;5539886463;eliup1595@gmail.com;
+103;Roberto;Najera;Sierra;;CDMX;5543714247;;PORTALES
+104;Vicente;Juárez;Pérez;Alcaldía Iztapalapa;CDMX;5513598919;vicjuarez2013@gmail.com;AVES-VIC-JUAREZ
+105;Mario Alberto;Suriano;Morales;Chiapas;Escuitla;9613592086;;PERIQUITOS ESCUINTLA
+106;Gabriela;Ramirez;Lopez;Michoacan;Tangamandapio;3513049141;;CASA DEL AVE
+107;Raúl;Arcos;Hernández;Veracruz;Xalapa;2281514140;nnyulk@gmail.com;YUL-YUL
+108;Héctor;Pereida;Pérez;Jalisco;Yahualica;3441051327;pereida71@gmail.com;HP
+109;Sergio;Gómez;Hernández;Veracruz;Xalapa;2281585935;kru6er@hotmail.com;JONKY
+110;Teresa Olin;Carballo;Acosta;Veracruz;Xalapa;9996502418;cteresaolin@yahoo.com.mx;MC
+111;Bogar;Consoli;Carrasco;Veracruz;Xalapa;2281533767;bogarconsoli@hotmail.com;BCC
+112;Diego;García;González;Jalisco;Guadalajara;3314798521;ddg_garcia@hotmail.com;DEIVIS
+113;Ibert;Vives;Rios;Jalisco;Guadalajara;8120104112;lbertvivesr@gmail.com;VIVES
+114;Mario Alejandro;Rodríguez;González;Jalisco;Guadalajara;3310683472;marg_ryd@hotmail.com;MAALROGO
+115;Jaciel;Live;Rodríguez;Veracruz;Las Choapas;9231004454;jaciel_live@hotmail.com;AVIARIO JORGITO
+116;José Rene;Fabián;Pérez;Michoacan;Morelia;4431076852;fabianpjrene@gmail.com;PERIQUITO AMARILLO
+117;Jose Luis;Fuentes;Ruiz;Veracruz;Cardel;2961086744;luisleslie24@gmail.com;FUENTES
+118;María Guadalupe;Velázquez;Rivera;Jalisco;Guadalajara;3312172764;marigbela@hotmail.com;LUPITA VR
+119;Luis Alberto;Alvendaño;Guillén;Chiapas;Tuxtla gtz;9231117246;;BESITOS
+120;julio Adrián;Ruiz;López;Chiapas;Tuxtla gtz;9631595137;qfbjulioruiz@hotmail.com;LAUI
+121;Luis Fernando;Jimenez;Ortiz;Chiapas;Tuxtla gtz;9613196812;luis-ortiz@hotmail.com;ORTIZ
+122;Joel alfredo;Gutierrez;Nuñes;Guanajuato;Leon;4775612525;joel.gutimoreno@gmail.com;JOEL
+123;Leticia;Torres;Hernandez;Guanajuato;S.Francisco del R;4761041740;herbalety@outlook.com;LETY TORRES
+124;Jonathan de Jesus;Linares;Gutiérrez;Veracruz;Catemaco;2941575916;kio2_17@hotmail.com;BIRD CATEMACO
+125;Moises;Pérez;Rosas;Veracruz;San Andres Tuxtla;2941646219;perezrosasmoises@gmail.com;PÉREZ
+126;Jorge Luis;Mendez;Tercero;Chiapas;Suchiate;9621891601;jorgeluis190195@gmail.com;MACAO
+127;Claudia;Alcantara;Presmanes;Jalisco;Atotonilco el Alto;3317721092;clau470471@gmail.com;ABEJITA JOSH
+128;H.Zulem;De la Torre;Ramirez;Estado de Mexico;Los Reyes de la Paz;5545612265;toby-perro@hotmail.com;COCOLO
+129;Jose Fabian;Barrientos;Garcia;Guanajuato;leon;4776491596;fabianwow-barrientos@hotmail.com;BARRIENTOS
+130;Jose Luis;Barajas;Obregon;Jalisco;Guadalajara;3316311920;jwis8225@gmail.com;BARAJAS
+131;Tomas Alberto;Bernal;Jauregui;Jalisco;Guadalajara;3311832858;betumbernal@hotmail.com;BERNAL
+132;Miguel;González;Villafaña;Jalisco;Autlan de Navarro;3788858480;cebusardo@hotmail.com;MAGNO
+133;Alfredo;González;Nuñez;Michoacan;Tarimbaro;4431103620;blasazul_15@hotmail.com;GONZÁLEZ
+134;Orlando Hernán;Olozagaste;Hernández;Veracruz;Tuxpan de r.c;7658332615;hernan-103@hotmail.com;HERNÁNDEZ
+135;Leonardo Alberto;Rosales;Diaz;Estado de Mexico;El oro;7121795865;ard_1965@yahoo.com.mx ;
+136;Oracio;Guardado;González;Guanajuato;Leon;4776869154;guardadoracio@gmail.com;GUARDADO TORRES
+137;Luis Angel;Telles;Nieto|;Estado de Mexico;Chalco;5538297404;manos_v11@hotmail.com;GIK
+138;Jesús López;López;;Jalisco;Guadalajara;3319174713;adriana_06r@hotmail.com;ESPERANZA
+139;Andrés Guillermo;Horta;Chávez;Guanajuato;Leon;4772003796;andres_hortachavez@yahoo.com;LEONAH PERIQUITOS
+140;Juan Antonio;Ovando;Magaña;Tabasco;Nacajuca;9935938873;jaomp14@hotmail.com;OVADO
+141;Francisco Javier;Zarco;Virueta;San Luis Potosi;San Luis Potosi;4441580148;franckzarco;ZARCO
+142;Eros Issac;Olan;Alejandro;Tabasco;Jalapa Mendez;9142790736;issac_olan@hotmail.com;MEYAYA
+143;San Martin;Garcia;Lidio;Veracruz;Coatzacoalcos;9211427098;josh_sang@outlook.com;SAN MARTIN
+144;Antonio de jesus;Tuz;Cruz;Quintanaroo;Chetumal;9831774064;antonio.tuz.cruz@gmail.com;MOO KAI
+145;Alejandro;Calderon;Gonzalez;Guanajuato;Leon;4779071796;alexcalgo@gmail.com;EGG ZOTI
+146;Oswaldo;Luna;Rodríguez;Jalisco;Guadalajara;3326998010;oswalluna003@gmail.com;EL FLACO
+147;Gilberto;López;Alderete;Baja California Norte;Tijuana;6643997189;gilbertoo1997@gmail.com;MINI AVIARIOTJ
+148;Armando;Cisneros;Preciado;Jalisco;Guadalajara;3313279008;armans_01@hotmail.com;ARMAN'S CISNEROS
+149;Jesús Alejandro;García;Cordova;Tabasco;Teapa;9321106098;jesusalejandro.garciacordova@gmail.com;REPROVEDT
+150;Luis Gerardo;González;Rodríguez;Jalisco;Tlajomulco de Z;3338284331;ii728074@iteso.mx;LUIS GONZÁLEZ
+151;Daniel;González;Calderón;Michoacan;Huandacareo;4454504041;eldanes18.dg@gmail;EXOTIC'S GONZÁLEZ
+152;Alejandro;Rosales;Gracias;Jalisco;Guadalajara;3323394610;alejandrorosales2017@outlook.com;FUNNY PETS
+153;Samuel;Ocañas;Torres;Tamaulipas;H.Matamoros;8681436674;saocto@hotmail.com;KOQUEN MATAMOROS
+154;Juan Manuel;Sanchez;Vega;Puebla;puebla;2225356319;juansv549@gmail.com;JV
+155;Carlos;Bautista;Márquez;Tabasco;Villahermosa;9934194763;carlosbautista901@gmail.com;
+156;Lino Fermin;Medina;;Jalisco;San Andres Ixtlan;7073072645;libax285@gmail.com;LIBASX FAMILY RANCH
+157;Carlos;Álvarez;Pérez;CDMX;;5586781740;carlosgeo86@gmail.com;GIO_SOF
+158;Salvador de Jesus;Cabrera;;Baja California Norte;Tijuana;6644908334;shavador21@gmail.com;D'JESUS AVIARY
+159;Jose Luis;Jimenez;Gonzalez;Jalisco;Salto;3312709587;liberalfueradeserie@gmail.com;PADRINO
+160;Jorge Luis;Velázquez;Ambriz;Estado de Mexico;Toluca;7226439919;jvambriz86@gmail.com;vaj
+161;Juan Carlos;Garcia;Cedeño;Jalisco;Ameca;3751167220;garciaericka@gmail.com;GARCIA
+162;Carlos Yovany;Gonzalez;Rodriguez;Baja California;Tijuana;6644513010;yovanygonrod10@hotmail.com;YOVANY
+163;Jesús;Almanza;Marroquín;Guanajuato;Irapuato;4251049573;jesusalmazamrroquin@gmail.com;ALMANZA
+164;Myriam;Martínez;Fernández;Jalisco;Zapopan;5528429266;mafernanda_100@hotmail.com;D'ISSABGELA
+165;Rodrigo;Rodríguez;Rivera;Michoacan;Sahuayo;3531012305;autodiagnosticorodrigo84@gmail.com;RODRIGO
+166;Jessica Mayela;Lozano;Velázquez;Jalisco;Zapopan;3323840536;lozanovelazquez@gmail.com;LOZANO VELAZQUEZ
+167;Fernando Joel;Orozco;Martinez;Jalisco;Chapala;3318333101;feroroz1837@gmail.com;
+168;Adrián;Gálvez;Cisneros;Michoacan;Sahuayo;3531321035;adriagacis91@gmail.com;GASAN
+169;Nancy;Tamez;Aguilar;chihuahua;Cd Juarez;6561695809;celes03@gmail.com;AVES CELES
+170;Adrian;Robles;Solorio;Michoacan;Uruapan;4521494921;nairda_1980@hotmail.com;ROBLES
+171;Juan Carlos;Segura;Martinez;Veracruz;Coatzacoalcos;9212396128;Jcarlos_smtz@hotmail.com;JUAN PERIQUITOS COATZA
+172;Mauricio;Ortiz;Pérez;Tabasco;Cunducan;9361050272;ingortiz@hotmail.com;A&M
+173;Concepcion;Gonzalez;Cordova;México;México;5580210342;dianac164@hotmail.com;
+174;Arisbeth;Aguilar;Luis;Puebla;puebla;228500366;arisaguilarluis@gmail.com;AZUL
+175;Marcos;Mendoza;Pastrana;Puebla;Puebla;2212413434;mz4513mz@gmail.com;ZUMA
+176;Luis Felipe;Sánchez;Sánchez;Michoacan;Sahuayo;3535365146;luis_fe03@hotmail.com;SANMAC
+177;Jesus Alejandro;Ibarra;Hernandez;Jalisco;Guadalajara;3321445027;alexibarra1989@hotmail.com;ABIGAIL
+178;Oscar Rodrigo;Amezcua;Sanchez;Michoacan;Sahuayo;3535365017;gerenciabonafontahuayo@hotmail.cpm;EL ABUELO
+179;Sergio Gabriel;May;May;Yucatán;Kopte Motul;9911341233;sergiiomay463@gmail.com;MAY
+180;Cruz Abner;Andrade;Tamayo;Yucatán;Buctzotz;9991430982;andrade_cruz@live.com.mx;PISTACHE
+181;Iván Nóe;Perera;Ávila;Yucatán;Dzidzantú;9919596454;ip061@hotmail.com;PERERA
+182;juan Roldán;ku;Mukul;Yucatán;Montul;9911000098;roldankukuk11@gmail.com;KU-KUK
+183;Jewerly Dafney;be;Quijano;Yucatán;Dzemul;9911000610;jewerly_13@hotmail.com;HERMANOS DAFNEY
+184;Adrian;Uscanga;Rivera;Veracruz;Coatzacoalcos;9212549715;ely.ur39@gmail.com;CERCA DE TI
+185;Juan Antonio;De Dios;Nuñez;Tabasco;Nacajuca;9932350002;licenciado.cantinas@gmail.com;KALU
+186;Jairo Raúl;Ruiz de la;Cruz;Tabasco;Cunducan;9141182904;crja1995@hotmail.com;AVES JAIRO RUIZ
+187;Michael Ivan;Pascual;Aguirre;Estado de México;Coacualco;5549146212;dizzymich6@hotmail.com;SANTA MARIA
+188;Cèsar Augusto;López;Pérez;Tabasco;Villa hermoza;9933447770;caugustus18.cal@gmail.com;CIM
+189;Alejandro;Peña;Garcia;Mexico;Chalco;5585875591;inter-anahuac@hotmail.com;PERICHALCO
+190;Josué;Gálvez;Sánchez;Michoacan;Sahuayo;3531019230;jogasa_14@hotmail.com;GÁLVEZ
+191;Rodolfo;López;Méndez;Oaxaca;Oaxaca de Juárez;9512585472;royagosto10@gmail.com;DEL ROY
+192;Miguel;García;Ramírez;Oaxaca;oaxaca;9511469251;mgarciaramirez39@gmail.com;AVES GARCÍA
+193;Julián Abelardo;Jimenez;Tec;Yucatán;Merida;9991274191;cpjuli_jimenez8@hotmail.com;JIMENEZ
+194;César;Aquino;Carrada;Oaxaca;San Pedro;2781136321;dafer1110aq@gmail.com;AQSA
+195;Eber Raul;Quintero;Sanchez;Jalisco;Ameca;3751132535;chequintero@hotmail.com;KIN-KON
+196;Manuel Jesus;Torres;Martínez;Quintanaroo;Cancún;9984207470;aviariotogui_66@hotmail.com;TOGUI
+197;Jaime Eduardo;Maravilla;Ramírez;Michoacan;Sahuayo;3531081806;jaimemaravilla@hotmail.com;MARAVILLA
+198;Tomas;Zuñiga;Tinajero;Tamaulipas;Reynosa;8991550975;zunigatrevino3@gmail.com;ZUTRE
+199;Jorge Alberto;Escobar;Pacheco;Michoacan;Zamora;3511253225;albertopach.je@gmail.com;sin nombre
+200;José Alejandro;Gómez;Beltrán;Jalisco;Zapotlan;3411053370;al3xandr0_1993@hotmail.com;EL JANO
+201;Lucas Homero;Garza;Cruz;Tamaulipas;Cd. Reynosa;8994666161;homerogarzacruz@gmail.com;MALUAM
+202;Ignacio Rogelio;Vázquez;Villafaña;Tamaulipas;Cd.Madero;8331548885;ignacio.r.vazquez@hotmail.com;VAZTOR
+203;Alberto;Aragon;Rodriguez;Oaxaca;H.Cd. de Ejutla de C.;9511963519;acuarioluis88@hotmail.com;
+204;Edwin Gustavo;Corodva;Rodríguez;Colima;Tecoman;5554316844;edwin.ram.gael22@gmail.com;
+205;Luis Eugenio;Duran;Regalado;Nuevo Leon;Monterrey;8131399553;luisyzfr6@gmail.com;AVES LUNA
+206;Eduardo;Specia;Zavala;Guanajuato;Irapuato;4626531233;yayirobe1@hotmail.com;
+207;Alfredo;Ruiz;Rodríguez;Colima;Manzanillo;3141607891;alfredoruizmanzanillo@gmail.com;RUIZ
+208;Ana Lilia;Macias;Cambron;Jalisco;Guadalajara;3325159456;anylili76@gmail.com;LILIS
+209;Uriel;González;Mendoza;Jalisco;Tepatitlán;3787010542;uriel_0108@hotmail.es;
+210;Sergio Arturo;García;Herrera;Colima;Manzanillo;3151132098;sergiogarciah809@gmail.com;
+211;Ricardo;Vázquez;López;Jalisco;Ameca;3329875604;kerreque89@gmail.com;YÚMÁO TIÁNTANG
+212;Reyes;Macias;Cambron;Jalisco;cihuatlan;3151069312;claudiamichellemacias@gmail.com;CAMBRON
+213;Brenda Paulina;Vega;Sifuentes;Jalisco;Guadalajara;3315699894;pau1094@hotmail.com;LA LUNA
+214;José Luis;Ovando;Castañeda;Oaxaca;Salinas Cruz;9711328917;jlovandoc@hotmail.com;Ad&Su
+215;Vitor Hugo;Damián;Covarrubias;Jalisco;Tonala;3329091477;hdamian@outlook.com;AVIARIO LUPITA
+216;Jose Israel;Alcaraz;Tenorio;Colima;Villa Álvarez;3121941791;lacasadelpastel@hotmail.com;JIA
+217;Obed Emmanuel;Hernandez;Vazquez;Oaxaca;Miahuatlán;9511112852;wolfesparta.2@gmail.com;BLACKWOLF!
+218;Jorge Alberto;Gallegos;Serna;Colima;Manzanillo;3141467599;jorge_trasportesgallegos@hotmail.com;BETO XTREME
+219;Norma Elena;Ramírez;Novela;Colima;Tecoman;3121997958;normanovela4@gmail.com;RAMÍREZ
+220;José de Jesús;Campos;Hernández;Michoacan;Sahuayo;3531350095;;
+221;Fernando;Calva;;Jalisco;Guadalajara;3531844454;diskyaviario@gmail.com;D,ISKY
+222;José Javier;Robles;Vargas;Guanajuato;Irapuato;4625932374;liam020918213@gmail.com;SN JDTS JAVIER RV
+223;Christian Jesús;Zuñiga;Morales;Guanajuato;Irapuato;4622859285;lic.zuniga.ch@hotmail.com;CHRISTIAN ZUÑIGA
+224;Efrain;Villalobos;Obispo;Monterrey;Nuevo León;8115694984;efrainvillalobosobispo@gmail.com;MR.KRAMER
+225;Agustín;Rivera;Castillo;Veracruz;Coatzacoalcos;9211536669;ricatin@msn.com;BUDGERIGAR
+226;José Ángel;Escobedo;;Lerdo;Durango;8713527884;joseangelescobedi@gmail.com;JCJA
+227;Héctor Antonio;Loza;Peiro;Sinaloa;Culiacan;6672045543;hectorloza28@gmail.com;LOZA
+228;José Guadalupe;de Luna;Ramírez;Zacatecas;Zacatecas;4921035959;deluna_jg@hotmail.com;LUZ DE LUNA
+229;Kevin Kepler;Narcia;Gutiérrez;Chiapas;Tuxtla Gutierrez;9612546887;kevinnarcia417@gmail.com;K.N.G
+230;Arturo;Archundia;Bastida;Estado de Mexico;Toluca;7224666708;bac_dc4d@hotmail.com;AAB
+231;Amir Alexander;Borges;Gamboa;Quintanaroo;Chetumal;9831909192;amirborgez@gmail.com;A&M
+232;Hugo;López;Martínez;Tamaulipas;Reynosa;8991069441;hugohfts@gmail.com;LOMAR
+233;José Luis;Espadas;Ruiz;Campeche;Campeche;9811130314;jler140486@gmail.com;ESPADAS
+234;Alma Daniela;Camacho;Viguería;Chihuahua;Nuevo Casas Grandes;6361112121;criaderoarca@hotmail.com;ArCa
+235;Javier Adonai;Pablo;Ojeda;Oaxaca;Oxaca;9512928339;adonaipablo364@gmail.com;AVES JAYAM FPM
+236;Luis Eduardo;Cortes;Ortiz;Oaxaca;Oxaca de Juárez;9512044048;lalocortesortiz@gmail.com;D' ORTIZ
+237;Marcos Areli;Bonilla;Juárez;Oaxaca;Oaxaca;9511907861;abjitaxy@hotmail.com;MABJ
+238;Carlos Gabriel;Cornelio;Robles;Veracruz;Veracruz;2293653472;crcg1407@gmail.com;GABRIEL ROBLES
+239;Jesús Eduardo;Santiago;Sánchez;Oaxaca;Oaxaca Centro;9512735834;detrasgs@gmail.com;CRIADERO DETRASE
+240;Armando;Campos;Beattie;Tamaulipas;Reynosa;8991229848;elhuizache@gmail.com;EL HUIZACHE
+241;Rafael Rodrigo;Garcia;Sánchez;Guanajuato;Salamanca;4641029488;Taygsanchez@gmail.com;EL CONSENTIDO
+242;Isidro;Santos;Domínguez;Puebla;Capital;2214285860;santosdomin2214@gmail.com;
+243;Francisco Javier;Fernandez;Hernandez;Baja California;La Paz;6121571280;fjfhdez@gmail.com;AVES LA PAZ
+244;Orlando;Garrido;Cruz;Puebla;Puebla;2223391119;ordx18@hotmail.com;ENTRE PLUMAS
+245;Oscar;Padilla;Lucio;San Luis Potosi;Rioverde;4871122745;asesorespadilla@hotmail.com;CAROLINE'S
+246;José Gael;Conejo;Pérez;Guanajuato;Salamanca;4641364980;amorabit73@gmail.com;"""ELSALVADOR"""
+247;Astrid;Capos;Hernandez;Veracruz;Veracruz;2722818816;astridcampos30@gmail.com;BIRD'S PARADISE
+248;Brayan Alfredo;González;Suárez;Puebla;Puebla;2216407823;brayansuarezags@gmail.com;AVES YAN
+249;Tomás Armín;Sánchez;Hernández;Tamaulipas;Cd. Madero;8331058360;sanchezhdz.tomas@gmail.com;SÁNCHEZ
+250;Javier;Chavez;Bautista;Jalisco;Zapopan;3311647872;javiflako_sep18@yahoo.com;JAVI CHAVEZ
+251;Isaac;Vázquez;Ovalle;Chiapas;Tuxtla Gutiérrez;9612802343;Pclap.com.mx@gmail.com;Periquitos y Aves Chiapas
+252;Berenice;Ramírez;Pascacio;Chiapas;Tuxtla Gutiérrez;9612294427;br080630@gmail.com;Aviario CORA
+253;Eridani;Ortiz;Morales;Chiapas;Huixla;9641232628;;periquitos emmanuel
+254;Juan Manuel;Reyna;Ayala;Michiocan;Morelia;4432543480;juan82535@gmail.com;LOLA
+255;Juan Antonio;Martínez;Rodríguez;San Luis Potosí;Soledad de Graciano S.;4445557143;antoniojuan201064@gmail.com;
+256;Rubén Alejandro;Armenta;Rodríguez;Nuevo León;Ciénega de Flores;8117630418;Armenta.24@gmail.com;ALEX RODRÍGUEZ
+257;Edgar Alan;Navar;Lazcano;Durango;Durango;6181064496;ean_07@hotmail.com;MALVA
+258;Uriel Daniel;Jimenez;Luna;Durango;Durango;6183175739;urieldanieljl32@gmail.com;MALVA
+259;Raúl;Herrera;Alfaro;Michoacán;Zamora;3511585521;raulherreraalfaro@gmail.com;
+260;Agustin;Arreola;Gonzalez;Nuevo Leon;Guadalupe;8115006373;agusarreola33@hotmail.com;BIRD MONTERREY
+261;Ricardo Roberto;Arellano;Valadez;Guanajuato;Francisco del Rincón;4761099431;ricardo_07_92@hotmail.com;ARELLANO
+262;Rigoberto;Ruvalcaba;Plascencia;Jalisco;Guadalajara;3315491784;rirupla@yahoo.com.mx;RUVALCABA
+263;Jacqueline;Santos;Rosas;Puebla;Puebla;2227161032;santojac2010@hotmail.com;ROSAS
+264;Roberto Ulises;Jiménez;Luna;Durango;Durango;6182721854;ulisesjimenezluna@gmail.com;AVES LUNA
+265;Jesús Antonio;Chimal;Tah;Quintanaroo;Playa del Carmen S.;9841888962;antoniochimal1994@hotmail.com;DUKA
+266;Iván;Betancourt;Carrillo;Baja California;Tijuana;6644776112;ivan.beer2288@gmail.com;BAM-BAM
+267;Marco Antonio;Mata;Aguilar;Jalisco;Guadalajara;3315846884;mataaguilar786@gamil.com;MATA
+268;Juan Martin;Mendoza;De la Rosa;Guanajuato;León;4771557584;mendoza78martin@gmail.com;MENDOZA
+269;Jesús Alberto;Morales;Sánchez;Guanajuato;León;4771719606;criaderomorales1112@gmail.com;CRIADERO MORALES
+270;Darlin de Jesús;Velasco;Hernández;Chiapas;Ciudad Tila;9191145976;kirstenve3@hotmail.com;MYDARLING
+271;David Josué;Perez;González;Durango;Santiago Papasquiario;6741034999;davidjpg88@hotmail.com;DAVID PEREZ
+272;Oscar Hugo;Bañuelos;Flores;Jalisco;El salto;3334774078;oscarbanuelos231@gmail.com;BAÑUELOS
+273;Michel Ricardo;Canul;May;Quintana Roo;Playa del Carmen S.;9842858354;michel16468@gmail.com;ESTRADA
+274;Felipe de Jesús;Arias;Cortés;Tabasco;Comalcalco;9335934983;felipedaniel25@hotmail.com;LA CABAÑA
+275;Enrique;Izaguirre;Borjas;Tamaulipas;Tampico;8332467958;kikeizagar@gmail.com;CANARIOS IZAGAR TAMPICO
+276;Eduardo;Martínez;Gómez;Michoacán;Lázaro Cárdenas;7531428687;childus17@gmail.com;GOMEZ
+277;Ubaldo;Magallón;Ochoa;Michoacan;Sahuayo;3531094202;idbsahumo@hotmail.com;SAHUMO
+278;Juan Antonio;Che;Cortez;Quintanaroo;Chetumal;9831195490;juan.che.cortez@gmail.com;
+279;Sergio Alberto;Moreno;Osnaya;Estado de México;Huixquilucan;5580585937;fagosnaya@gmail.com;MUI
+280;Fernando;Monarca;Pérez;Tlaxcala;México;2212312939;fermonarca33@gmail.com;FC
+281;Juan Manuel;Reyes;Medina;Aguascalientes;Aguascalientes;4492273195;;REYGA
+282;Jorge Alberto;Gutiérrez;Guerrero;Guanajuato;León;4772813048;georgegtzgro@gmail.com;GIERRERO
+283;José Ramon;Esparza;Garcia;Jalisco;Guadalajara;3310089286;krafo1@hotmail.com;ESPARZA
+284;Oscar;Garrido;Palma;Tabasco;Comalcalco;9331234689;garridoscar15@gmail.com;GARRIDO
+285;José Rodolfo;del Angel;Vazquez;Jalisco;Guadalajara;3316033761;rodolfodelangel@hotmail.com;Aviario del Angel
+286;Salvador;Aguilera;Trujillo;Veracruz;Coatzacoalcos;9211797392;chavaaguileratrujillo@gmail.com;
+287;Rodrigo;Ruíz;Pérez;Jalisco;Guadalajara;3328163682;rodrigoruiz386@gmail.com;Aviario Xochipilli
+288;Ricardo;Mendoza;Muñiz;Colima;Manzanillo;3141474831;cotijamendoza000@gmail.com;RICHYF
+289;Luis Enrique;Torres;Aguiar;Quintanaroo;Cancun;9981982221;marcopolo.cu@gmail.com;TORRESCRUZ
+290;Edgar Arturo;Cerón;García;Puebla;Amozoc;2225428902;e.arturocer@gmail.com;PIO QUITOS
+291;José;Rodríguez;González;Jalisco;Tizapán el Alto;3751417810;przgby55@gmail.com;JOSÉ GONZÁLEZ JR
+292;Francisco;Durán;Echevarría;CDMX;CDMX;5531914794;francdu@hotmail.com;FRANK
+293;Cristian Eder;Amador;Carreño;Oaxaca;Ocotlán de Morelos;9511231992;ed_0127@hotmail.com;Aviario Amador
+294;Lucano;Vasquez;Mendoza;Oaxaca;;9513828290;lucanov32@gmail.com;Milagros
+295;Diego;Martínez;Molina;Oaxaca;San Bartolo Coyotepec;9514260103;mmdiego200@gmail.com;Aviario MarMol
+296;Miguel Angel;Cruz;Alvarado;Miochoacan;Morelia;4433621652;Miguel.angel.cruzy@gmail.com;LUPITA
+297;Edgar Fernando;Salazar;González;Guanajuato;Irapuato;8441003941;edgar_rg_123@hotmail.com;
+298;Jose Luis;Soto;Valadez;Jalisco;Tlajomulco de Z;3340529878;sotovaladezjoseluis@gmail.com;AVES JOLSO
+299;Christian Enrique;Garcia;Banda;Guanajuato;Irapuato;4622461957;Cg140495@gmail.com;SAN PEDRO
+300;Ignacio;Navarrete;Lorenzon;Aguascalientes;Aguascalientes;3316017956;ignacionavarrete7@hotmail.com;
+301;David;Alejandro;Beltran;Monterrey;Nuevo Leon;8124067123;avesjofiel@gmail.com;AVES JOFIEL
+302;Darmin Felipe;Navarro;Argaez;Quintana Roo;Playa del Carmen;9982460479;darmin.navarro@gmail.com;TUCHI NAVARRO
+303;Luis Eduardo;Vazquez;Costilla;Guanajuato;Leon;4776109770;rudychwl@gmail.com;RUDY VAZQUEZ
+304;Ramon;Godinez;Tapia;Jalisco;Guadalajara;3310140348;godinezramon118@gmail.com;RGT
+305;José Alan;Corona;García;Jalisco;Salto;3329727101;ajcorona11@gmail.com;ACG
+306;Jonathan Saúl;Cuevas;Guillen;Jalisco;Guadalajara;3316022208;jonasaul91@gmail.com;CUEVAS
+307;Mayra;Sanchez;Pérez;Quintana Roo;;9841344249;may_edwd182616@hotmail.com;SANZ
+308;Salvador;Dúron;López;Aguascalientes;Aguascalientes;4492106408;salvadorduron1@gmail.com;MIÑIKIZZ
+309;Orzon Jair;Alemán;Galmiche;Veracruz;Chinameca;9221971887;aljair17@gmail.com;MIDORI
+310;Francisco Javier;Gamboa;Góngora;Quintana Roo;Chetumal;9837324425;frank610117@gmail.com;HNOS GAMBOA
+311;Jose Antonio;Chaidez;Guzman;Sinaloa;Navolato;6721214830;tonitobodoke@hotmail.com;TOCHA
+312;Ángel David;Alonso;Murillo;Guanajuato;Leon;4792622438;angelalonso7328@gmail.com;ANGEL
+313;Gabriel;Zentella;Pérez;Tabasco;Tacotalpa;9931380638;gabrielzentella1@icloud.com;GABIAN
+314;Jaime Enrique;Godoy;;Bajacalifornia;Tiguana;619281394;jaimee.godoy@hotmail.com;JM
+315;Carlos Martín;Enriquez;Reos;Jalisco;Guadalajara;3321490887;grupoenriquez@hotmail.com;BARUCH
+316;Luis Eduardo;Chim;Ake;Yucatan;Motul;9911111167;;CHIM
+317;Juan Manuel;García;Campos;Michoacan;Zamora;3511078399;porcicolajmgarcia@gmail.com;J.MANUEL GARCÍA
+318;Bernabe Mario;Franco;Calleros;Jalisco;Zapopan;3314529438;mario.11.mf@gmail.com;BARBABAS AVIARY
+319;Brayan;Garcia;Hernández;Jalisco;Mechoacanejo;4491032842;brayangarcia_96@hotmail.com;QUETZAL
+320;Vladimir Fernando;Espinoza;Mayorga;Tamaulipas;Ciudad Victoria;8342461498;te_ave@hotmail.com;ABIGAIL
+321;Carlos Rashid;Sabido;Sosa;Yucatan;Merida;9999081199;carlos_rashid_100@hotmail.com;
+322;Juan Pedro;Romero;Escoto;Guanajuato;Leon;14791020674;;PEDROS
+323;Miguel Ángel;Cárdenas;Garza;Tabasco;Comalcalco;9331112788;miancargar@hotmail.com;EL AMIGO
+324;Jesús Eugenio;Moreno;Munguia;Veracruz;Paso Del Macho;2731278036;osly_2293@hotmail.com;F&A
+325;Alejandro;Arredondo;Vera;Michoacan;Morelia;4431416888;arqalejo21@hotmail.com;ARREDONDO
+326;Miguel Ángel;Manzano;Delgado;Leon;Guanajuato;4792283109;miguelmanzano393@gmail.com;MANZANO'S
+327;Dante;Avendaño;Peña;Puebla;Puebla;2224216495;avispon_2000@hotmail.com;ARES
+328;Jesús Alfonso;Rayas;Gallegos;Guanajuato;Dolores;4181043560;rayasja@hotmail.com;
+329;Carlos Alejandro;Ramirez;Cruz;Jalisco;Guadalajara;3338443492;carlosramirezcruz201@outlook.com;SCA
+330;Jose Angel;Cervantes;Buenrostro;Michoacan;Sahuayo;3531334169;;EL ANGEL
+331;Abraham;Barranco;Castillo;Morelos;Castillo;7772492831;cracko9n@gmail.com;LA RESERVA
+332;Alonso Javier;Galindo;Figueroa;Jalisco;Guadalajara;3322401027;aviariogalana@gmail.com;GALANA
+333;Jose santiago;valdovinos;Gálvez;sahuayo;Michoacán;3531274882;mina78ga@hotmail.com;vagal
+334;Guillermo;Sanchez;Yeo;Michoacan;Sahuayo;3539630269;sy.memo@yahoo.com;LAS BASURITAS
+335;jorge Alberto;González;;Guanajuato;Leon;4776935461;bomberoleon191@gmail.com;NUESTROS
+336;Hugo Ervigio;Rivera;Delgadillo;Guanajuato;Irapuato;4621573471;chuchosypajarracos@hotmail.com;PAJARRACOS
+337;José Daniel;Cavazos;de Leon;Durango;Durango;6183813993;zebra_79@hotmail.com;CABAZOS AVES Y NIDOS
+338;Cesar Gustavo;Silvestre;Villegas;Guanajuato;Irapuato;4622703086;cesarsilvestrevillegas@gmail.com;SILVESTRE VILLEGAS
+339;Victor Hugo;Aguilar;Apodaca;Mexico;Ciudad de Mexíco;5591968664;tiburonvh1986@hotmail.com;MURV
+340;Telbert;Herrera;;Coahuila;Monclova;8662584417;garxza@hotmail.com;TELBERT
+341;aviario Fifus;;;jalisco;Guadalajara;3328092121;saxojivano@hotmail.com;FIFUS
+342;Jose Guadalupe;Saldivar;Flores;Nuevo Leon;Apodaca;8135857974;saldivar.guadalupe@gmail.com;SALLEA
+343;Pablo Manuel;Guerrero;Pérez;Durango;Durango;6182745263;pabloketta07@gmail.com;
+344;Jose Humberto;Mendoza;Gonzalez;Chiapas;Tuxtla Gutiérrez;9611152323;mendoza-jh@hotmail.com;PERIK
+345;Miguel Ángel;Ramírez;Hernández;jalisco;San Juan de los Lagos;3951488008;icpangelcualtos@gmail.com;RAMIREZ
+346;Jose Antonio;Heredia;cobian;jalisco;Autlán de Navarro;3173882467;antony_homme@hotmail.com;HECAVIARIO
+347;Luis Eduardo;Ochoa;Hernández;Jalisco;La Barca;3931587435;luiseduardoochoahernandz@gmail.com;OCHOA
+348;Jose Miguel;Cruz;Romero;Chiapas;VillaFlores;9651212833;danjek0861@gmail.com;PIE DEL NANBIYIGUA
+349;Omar Isac;Díaz de León;Silva;Aguascalientes;Aguascalientes;4492773516;omarisac817@gmail.com;LOS NANOS
+350;José María;Valencia;Sánchez;Michoacán;Cojumatlan de Regules caro;3532315633;josevalenica22@icloud.com;ZANGONZA
+351;Rodolfo Rogelio;Manzo;Prats;Oaxaca;Tuxtepec;2871317050;;AVES MANZO
+352;Anaid;Puig;Vélez;Quintana Roo;Cancún;9983991071;;VENE PUIG
+353;Marcelino;Bustamante;Aguilera;Guanajuato;León;4791465445;laykers925@gmail.com;BUSTAMANTE
+354;Juan;Martínez;;Aguascalientes;Aguascalientes;4491899989;mtz11nauj.33@gmail.com;AVES AGS
+355;Marco Antonio;Vera;Leon;Campeche;Ciudad del Carmen;;;RUBI
+356;Elias;Leon;Ramirez;Jalisco;Guadalajara;3310964228;eliaslr@verdevalle.com;RAMIREZ
+357;Juan Antonio;Carrillo;Armenta;Guanajuato;Abasolo;4622868466;antonio_carrillo1989@hotmail.com;LAS PAJARITAS
+358;Francisco;Aguilar;Lazcano;Hidalgo;Tulancingo;5512277694;joseantonioaguilarislas@gmail.com;TOÑITO
+359;Ana Emilia;Ortiz;Ferrer;San Luis Potosi;San Luis Potosi;4445462291;avesferrer@gmail.com;AVES FERRER
+360;Gustavo;Rivera;Salazar;San Luis Potosi;San Luis Potosi;4445855292;gus_river@yahoo.com;RIVHER
+361;Ernesto Antonio;Muñoz;Cordoba;Veracruz;Medellin de Bravo;2292678974;ernesto_13_89@hotmail.com;AVIARIO MC
+362;Oscar;Vicente;Pinacho;Oaxaca de Juárez;Oaxaca;9511966422;;
+363;Rafael;Castellanos;Hernández;Chiapas;Tuxtla Gutiérrez;9611780711;dografa2@hotmail.com;RAFA CASTELLANOS
+364;Leobardo Esau;Díaz;Sanchez;Jalisco;Zapopan;3314762994;esauleobardo@gmail.com;LEDZ PSITACIDOS
+365;Jaime David;García;Herrera;Estado de Mexico;Huixquilucan;5571383832;jaimitolegen@gmail.com;
+366;José Inés;García;Vallin;Jalisco;Teocaltiche;3931180624;inesgarciavallin@gmail.com;EL LICENCIADO
+367;Francisco;Valdés;Lara;Jalisco;Tepatitlan De Morelos;3315837447;alujalsa_2011@hotmail.com;VALFRA
+368;Cristofer;Cuen;Bueno;Sinaloa;Culiacan;6674600131;cuenaustra@gmail.com;LOS CUEN
+369;Juan Daniel;Silva;Ayala;Guanajuato;Salamanca;4641260260;judassilva54@gmail.com;JUDAS
+370;Juan Fernando;Camacho;Robles;Guanajuato;San José Agua Azul;4131331260;dylan15586@gmail.com;FERCR
+371;Hector Hugo;Ortega;Ortega;Jalisco;Guadalajara;3316000263;hugo_7312@hotmail.com;
+372;Jesús;Vega;Ordaz;Michoacan;Purepero de Echaiz;4361094735;jesus357171818@gmail.com;SAGRADO CORAZÓN
+373;Luis Eduardo;villareal;Galaviz;Querétaro;Querétaro;4424342066;le.villareal.g@gmail.com;AVES VILLAREAL
+374;Angel;Hernandez;Torres;Veracruz;Cuautlapan Ixtaczoquitlan;2721886602;Anghdezt@gmail.com;DEL CARMEN
+375;José Adán;Almanza;Boteyo;Michoacan;Morelia;:4433011940;joseadanalmanzaboteyo88@gmail.com;ALMAZA
+376;Saulo Satriel;Bojorquez;Davila;Sinaloa;Mochis;6683953994;saulosatbd@gmail.com;SASBOD
+377;Eduardo;Tzhahib;Cruz;Nuevo León;Monterrey;8116210341;eduardoTzhahibcruz@gmail.com;Tzhahib
+378;Hugo Adrian;Puebla;Otiveros;San Luis Potosi;San Luis Potosi;4441855391;;PUE-ONH
+379;John Concepción;Delgado;Almendárez;Nicaragua;Managua;50588523118;nicaragua76@hotmail.com;J&C AVIARIO
+380;José Luis;Rodríguez;Rodríguez;Jalisco;Lagos de Moreno;4741283996;edenkatahdin@hotmail.com;EL EDÉN
+381;Iván;Hernández;Mendoza;México;México;5615941699;mendoza.ivan1728@gmail.com;HERNÁNDEZ
+382;Benjamin;Vera;Villanueva;Guanajuato;Puricima del Rincon;4761113462;benjaminvera289@gmail.com;BENY
+383;Anthony de jesús;Ortiz de la;Peña;Puebla;Puebla;2226127585;aviaromora@gmail.com;AVES MORO
+384;Armando Octavio;Mena;Cano;Guanajuato;Salamanca;4641081911;armc_80@hotmail.com;XIDOO MC
+385;Victor Manuel;Ramirez;Ponce;Jalisco;Guadalajara;3312341013;ramisvictor1514@gmail.com;AZTECA
+386;Antonio;Bahena;García;Morelos;Jiutepec;7772803421;pulgaba@hotmail.com;AVES DOS COTORRITOS
+387;Alejandro Yoneli;Villanueva;Gutierrez;Morelos;Cuautla;73511468408;avesvillanueva28@gmail.com;AVES VILLANUEVA
+388;Luis Guillermo;Mireles;Palacio;Francisco I Madero;Coahuila;8717555264;;7 GRANOS
+389;Leonardo Salvador;Gómez;Calderón;Guanajuato;Leon;4771081069;leonardodina26@gmail.com;ALITAS
+390;Federico Isidro;Bojorquez;Eb;Yucatan;Merida;9992612375;saquik0515@gmail.com;LA CASA DEL PAVO REAL
+391;Yasser;Wakid;;Egipto;;;;
+392;José Luis;Herrera;Estrada;Durango;Durango;6181451957;joseluisherreraestrada@gmail.com;HERRERA DÍAZ
+393;Amilcar de Jesus;Hernandez;Ruiz;Chiapas;Acala;9613346783;mitzu_7118@hotmail.com;PAJA
+394;Juan José;Valdivia;Cervera;Guanajuato;Leon;;;
+395;Oscar Arturo;Garcia;Ortiz;Michoacán;Sahuayo;3531031587;mocach65@gmail.com;EL COMPAÑERO
+396;Andrea Guadalupe;Ochoa;Ramirez;Michoacán;Chavinda;3512222259;laaaandy8aaa@gmail.com;psitacidos Andy
+397;José de Jesus;Rodríguez;Valencia;Michoacán;Sahuayo;3531396818;;
+398;Arturo;Maravilla;Ramos;Michoacán;Chavinda;3511191199;;CHAVINDA
+399;Serbando;Ramirez;Torres;Michoacán;Santiago tagamandapio;3531262769;;RAGUT
+400;Fernando Alberto;Rosas;Arjona;Veracruz;Acayucan;9241012024;fercho.r.ar@gmail.com;FARA
+401;Jorge Alberto;Villa;vera;Jalisco;Guadalajara;3313565970;aviarioguadalajaraoficial@gmail.com;GUADALAJARA
+402;Luis Rey;Sánchez;Mendoza;Queretaro;Tequisquiapan;4142804451;;
+403;Enrique Alberto;Torroella;Arroyo;Jalisco;Guadalajara;3338148600;enriquetorroella@prodigy.net.mx;
+404;Johan;San Juan;Organis;Nayarit;Bahía de banderas;3222118361;Johanorganis0129@gmail.com.;Johan org.
+405;jorge;Medina;López;Michoacán;Uruapan;4522047545;eszechamaquito@gmail.com;MEDIVAL
+406;Amber;Annett;Case;Aguascalientes;Aguascalientes;4491859128;amberacase@gmail.com;ANGELWINGS
+407;Arturo Ivan;Juarez;Saldate;Jalisco;Guadalajara;3323404480;thewalas92@gmail.com;J&M
+408;Kevin Arturo;Jiménez;Gómez;Tabasco;Nacajuca;9141359284;kevinarturojimenezgomez@gmail.com;AVIARIO JIMÉNEZ
+409;Mario Alberto;Juárez;Ruiz;Veracruz;Córdoba;2711349254;dicker_rammstein@hotmail.com;
+410;Luis Armando;Cordova;Avalos;Tabasco;Villahermosa;9934345954;luis-big@hotmail.com;LAMATT BUDGIES
+411;Edgar Uriel;Aleman;Iñiguez;Jalisco;Tala jalisco;3335619062;alemannuriel0@gmail.com;ALEMAN
+412;Carlos Alberto;Ayuso;Alonzo;Yucatan;Merida;9991446525;carlosalbertoayusoalonzo@gmail.com;AYUSO
+413;Luis Martín;Contreras;Alejo;Michoacan;Cuitzeo;444155555;martin_contreras6@icloud.com;EL MILAGRO
+414;Juan Luis;González;Hinojosa;Michoacan;Morelia;4431966249;juangrandote96@gmail.com;JHONY
+415;Jaime;García;Tinoco;Guanajuato;Morelos;4454620978;;JAIME
+416;Erik Alejandro;Carbajal;Rangel;Jalisco;Guadalajara;3330695581;rangelerik72@gmail.com;EACR
+417;Alfonso;Rodriguez;Treviño;Miochoacan;Morelia;4431855079;rotalfonso@gmail.com;EL PROFE
+418;José Maria;Alvarez;Flores;Queretaro;San Juan Del Rio;4271661461;chemalvarezflores@gmail.com;BUCHES
+419;Rafael;Navarro;Padilla;Michoacan;Chavinda;3519131423;navaronavarros@gmail.com;LOS NAVARRO CHAVINDA
+420;Jonathan Saúl;Torres;Hernandez;Aguascalientes;Aguascalientes;4497529558;johndanner24@gmail.com;JOELI
+421;José Luis;Hernández;Pérez;Veracruz;Misantla;2351081530;jlhdezperez0@gmail.com;SOGA
+422;Rafael;Cedillo;González;Veracruz;Xalapa;2283049295;rcedillog307@gmail.com;CEDILLO
+423;Guadalupe;González;Orantes;Chiapas;Jiquipilas;9681242600;lupizhorantes@outlook.com;LGO
+424;Cesar;Zamorra;Padilla;Michoacan;Chavinda;3511183121;;LOS PADILLA
+425;Liliana;García;González;Guanajuato;Leon;4776321807;lilianagglez181@gmail.com;GARCÍA
+426;Raúl;Ruiz;Raygoza;Jalisco;Guadalajara;3325920053;raul048111ruiz@gmail.com;RUIZ R.
+427;jóse Luis;Enríquez;Valdez;Jalisco;Guadalajara;3321602731;;LUIS.R
+428;Alan Cristhian;trujillo;Ramírez;Guanajuato;Leon;3337072359;01crhistr@gmail.com;RAMÍREZ
+429;Pedro;Guillén;Rivera;;;1 443 330 1755;;
+430;Leslie Rocio;Molina;Gonzalez;Ecatepec de Morelos;Edomex;5591096120;jesusgaelgarciamolina@gmail.com;CENCALLI CDMX
+431;Jose Luís;Reyes;Martinez;Guanajuato;Leon;4772660288;reyes.jose7502@gmail.com;LAN
+432;José Guadalupe;Caporal;Helera;Guanajuato;Cortazar;4111120872;caporaljoseguadalupe1993@gmail.com;TODO SE LO DEVO A ELLOS
+433;juan;Arias;Figueroa;;;3324029907;ariasjuan231v@gmail.com;JUANITO ARIAS.F.
+434;Mayte;Olan;Jimenez;Tabasco;Nacajuca;9141377180;may_28_4@hotmail.com;
+435;Liliana Teresa;Longoria;Garate;Veracruz;Agua Dulce;9231305971;..lili_longoria@hotmail.com;
+436;Alejandro;Arias;;Guanajuato;leon;4774339504;gracia@gmail.com;ARIAS ALEJANDRO
+437;Fernando;Hernández;;Estado de México;Tlanepantla de baz;5516548872;rayodecorazon20@gmail.com;HERNÁNDEZ
+438;Joaquín;Domínguez;Contreras;Hidalgo;Tula;7731759862;;JOAQUÍN AGAPORNIS DOMÍNGUEZ
+439;fanuel;Jaramillo;;;;;;
+440;Jesi;Aves;;Sinaloa;Culiacán;6673091595;jesica1994040429@gmail.com;JESI AVES
+441;Andre Francisco;Serrano;;Guanajuato;Leon;4775349119;poseidra590@gmail.com;EL CAPORAL
+442;Jonathan;Ortiz;Gonzales;Mexico;Nextlalpan;5621342545;jonaortizg@gmail.com;ORTIZ
+443;Juan Ramón;Herrera;Sotelo;Jalisco;Lagos de Moreno;4741058779;juanramoneli20@gmail.com;HERRERA
+444;Andrés Alejandro;Ochoa;Guzmán;Colima;Manzanillo;3141797743;sparkld01@gmail.com;AG
+445;Jean carlos;Granados;diaz;Estado de México;Luvianos;7224942951;jeancarlitos.jr_89@hotmail.com;GD
+446;Jesús Manuel;Hernández;Medina;Guanajuato;Leon;4776609656;jesus_man911@hotmail.com;HERNÁNDEZ
+447;Arturo;Urbina;Calvo;Chiapas;Tuxtla Gutierrez;9611159702;Arturourbi07@gmail.com;
+448;Karla Jacquelin;Padilla;Aguilera;Jalisco;Guadalajara;3312213497;padillakar7@gmail.com;PADILLA GDL
+449;johann Fredderyck;Sánchez;Martínez;colombia;Bogota;5,73027E+11;;TIERRA PROMETIDA
+450;Bentura;Carvajal;Bojorquez;Sinaloa;Guasave;6871574491;benturanoma98@gmail.com;CARVAJAL
+451;Luis Guillermo;López;Yapur;Coahuila;Torreon;8711836774;disenografico.yapur@gmail.com;LA PLUMITA
+452;Sergio Jose;Ramírez;Chávez;CDMX;CDMX;5512195019;sergioramirezchavez6@gmail.com;GOLDEN MX
+453;Victor Nabor;Pitalúa;Montero;Tabasco;Villa Hermosa;9931465692;pitalua_aerografia@hotmail.com;TABASCO
+454;Claudio Juan Carlos;Maciel;Martínez;Guanajuato;Irapuato;4621953891;caiyo1999@gmail.com;MACIEL
+455;Edgar Armando;Gudiño;Cardenas;Michoacan;Sahuayo;3531265695;snd_edgar@hotmail.com;AGAPORNIS GUDIÑO C.
+456;Osbaldo;López;Jiménez;Aguascalientes;Calvillo;4951018059;oscarlopezjimenez074@gmail.com;17K
+457;Jesus Orlando;Medina;cervantes;Jalisco;Guadalajara;33-31-38-30-39;orlandom103@gmail.com;AVIARIO MEDINA
+458;Eric;Torres;Vite;Puebla;Tecamachalco;221 271 6526;ayovitte@icloud.com;S/N
+459;Jesús Antonio;Gómez;Díaz;Michoacan;El Tepehuaje;35134523362;elgallero435@gmail.com;QUINTA MAYTE
+460;David;Calderon;Tovar;Guanajuato;Salamanca;4645667770;dacato25@hotmail.com;DAVID TOVAR
+461;Ramiro;Estrada;Chávez;Álvaro Obregón;CDMX;5526792413;ramiroestrada81@icloud.com;ESTRADA
+462;Kevin Miguel Angel;Perez;Tapia;Guanajuato;Leon;4774478061;kevin_razer_07@hotmail.com;NINFAS LEON
+463;Alexis Arturo;González;Perez;Jalisco;Jalisco;3931090113;alexisgonzalez1596@outlook.com;GP JALISCO
+464;Juan Manuel;Valdez;Cortes;Aguascalientes;Mexico;4492946736;valdezcortesjuanmanuel247@gmail.com;MANNY
+465;oswaldo;Sánchez;segura;Michoacán;sahuayo;3531483569;osegura97@gmail.com;SEGURA
+466;Clemente;Gordillo;Cisneros;Jalisco;Guadalajara;3325756681;c22239567@gmail.com;CACTUS
+467;Jonatan;Bravo;Niño;;;;;GRANJA SAN LUCAS
+468;Fabiola;Ezquivel;Mendez;México;Nezahualcoyotl;5550588481;fabyesquivelm@gmail.com;LOS MICHIS
+469;Guillermo;A;Z;Reynosa;Tamaulipas;8997565738;;MEMO A.Z
+470;Yosvanis;Matos;Herrera;Cuba;Holguin;5355083736;ymatosh93@gmail.com;SURGEON
+471;Johan;Mateo;Ortegon;Colombia;Bogotá;3106251419;;
+472;Roberto;Aguilar;Del Aguila;Nuevo Leon;Guadalupe N.L;8110686201;spanijaxx1@gmail.com;ORNITOLOGÍA RAD'A
+473;Eric Francisco;Benítez;Jaramillo;México;Tejupilco;7225872017;erikj8871@gmail.com;BJ
