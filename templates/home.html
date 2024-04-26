@@ -22,17 +22,17 @@
 <div class="login-section">
     {% if current_user.is_authenticated %}
         <p>Bienvenido!</p>
-        <p>Usuario: {{ current_user.username }}</p>
         <p>{{ current_user.first_name }} {{ current_user.last_name }}</p>
         <p>Miembro PMX #{{ current_user.member_id }}</p>
-        <br>
-
-        <p><a href="{{ url_for('profile') }}">⏿ Ver perfil</a><a href="{{ url_for('logout') }}">⛌ Salir</a></p>
+        <p>
+          <a href="{{ url_for('profile') }}">⏿ Ver perfil</a>
+          <a href="{{ url_for('logout') }}">⛌ Salir</a>
+        </p>
         {% if current_user.username.startswith("ADM-") %}
             <a href="{{ url_for('manage_users') }}">☰ Gestionar Usuarios</a>
         {% endif %}
     {% else %}
-        <p><a href="{{ url_for('login') }}">Login</a></p>
+        <p><a href="{{ url_for('login') }}">Ingresar</a></p>
     {% endif %}
 </div>
 

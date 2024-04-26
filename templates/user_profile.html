@@ -6,31 +6,51 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <div style="display: flex; justify-content: center; margin-bottom: 20px; margin-top: 20px;"> <!-- Updated for a more commonly supported layout -->
+        <img style="width: 190px;" src="{{ url_for('static', filename='images/pmx-logo-round.png') }}" alt="Logo">
+    </div>
 <div class="profile-container">
     <h1>Mi perfil</h1>
-    <ul class="profile-info">
-        <li>➩ Usuario:</li>
-        <li class="profile-detail">{{ user.username }}</li>
-        <li>➩ Nombre(s):</li>
-        <li class="profile-detail">{{ user.first_name }}</li>
-        <li>➩ Apellido(s):</li>
-        <li class="profile-detail">{{ user.last_name }}</li>
-        <li>➩ Miembro PMX #:</li>
-        <li class="profile-detail">{{ user.member_id }}</li>
-        <li>➩ Email:</li>
-        <li class="profile-detail">{{ user.email }}</li>
-        <li>➩ Teléfono:</li>
-        <li class="profile-detail">{{ user.phone }}</li>
-        <li>➩ Ciudad:</li>
-        <li class="profile-detail">{{ user.city }}</li>
-        <li>➩ Estado:</li>
-        <li class="profile-detail">{{ user.state }}</li>
-        <li>➩ Aviario:</li>
-        <li class="profile-detail">{{ user.aviary }}</li>
-    </ul>
+    <div class="profile-info">
+        <!-- Each pair of details is wrapped in a 'data-row' div -->
+        <div class="data-row">
+            <span>Usuario:</span>
+            <span class="profile-detail">{{ user.username }}</span>
+            <span>Nombre(s):</span>
+            <span class="profile-detail">{{ user.first_name }}</span>
+        </div>
+        <div class="data-row">
+            <span>Apellido(s):</span>
+            <span class="profile-detail">{{ user.last_name }}</span>
+            <span>Miembro PMX #:</span>
+            <span class="profile-detail">{{ user.member_id }}</span> 
+        </div>
+        <div class="data-row">
+            <span>Email:</span>
+            <span class="profile-detail">{{ user.email }}</span>
+            <span>Teléfono:</span>
+            <span class="profile-detail">{{ user.phone }}</span>
+        </div>
+        <div class="data-row">
+            <span>Ciudad:</span>
+            <span class="profile-detail">{{ user.city }}</span>
+            <span>Estado:</span>
+            <span class="profile-detail">{{ user.state }}</span>
+        </div>
+        <div class="data-row">
+            <span>Aviario:</span>
+            <span class="profile-detail">{{ user.aviary }}</span>
+            <span></span>
+            <span class="profile-detail"></span>
+        </div>
+    </div>
 
-    <p>Si alguno de tus datos es incorrecto o requieres es algún cambio, contacta al equipo de administración.</p>
-    <a href="{{ url_for('home') }}" class="back-link">⬅ Regresar a inicio</a>
+    <div style="background-color: #c4d96ea8; border-left: 6px solid #8fb200; margin-bottom: 20px; padding: 10px;">
+        <a>Si alguno de tus datos es incorrecto o requieres algún cambio, contacta al equipo de administración.</a>
+    </div>
+    <a href="{{ url_for('home') }}" class="back-link"> ⬅ Regresar</a>
+    <p></p>
+    <a href="{{ url_for('change_password_user') }}" class="back-link"> Cambiar Contraseña </a>
 </div>
 </body>
 </html>

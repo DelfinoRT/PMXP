@@ -8,6 +8,9 @@
 <body>
 {% extends "base.html" %}
 {% block content %}
+<div style="display: flex; justify-content: center; margin-bottom: 20px; margin-top: 20px;"> <!-- Updated for a more commonly supported layout -->
+    <img style="width: 90px;" src="{{ url_for('static', filename='images/pmx-logo-round.png') }}" alt="Logo">
+</div>
 <div style="max-width: 800px; margin: auto; background-color: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
     <h2>Actualizar datos de usuario</h2>
     <form method="POST">

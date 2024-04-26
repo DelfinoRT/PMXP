@@ -4,21 +4,61 @@
     <meta charset="UTF-8">
     <title>Gestión de usuarios</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .recent-users-container {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-{% extends "base.html" %}
-{% block content %}
+<div style="display: flex; justify-content: center; margin-bottom: 20px; margin-top: 20px;">
+    <img style="width: 120px;" src="{{ url_for('static', filename='images/pmx-logo-round.png') }}" alt="Logo">
+</div>
 <div class="user-management-container">
     <h2>Gestión de usuarios</h2>
     <form method="POST" class="search-form">
         <input type="text" name="search" placeholder="Buscar usuarios..." class="search-input">
         <input type="submit" value="Buscar">
     </form>
+<br>
+    <div style="background-color: #c4d96ea8; border-left: 6px solid #8fb200; margin-bottom: 20px; padding: 10px;">
+        <span>Puedes buscar usuarios por usuario, nombre, apellido, ciudad, estado o número de miembro.</span>
+    </div>
 
     <!-- Link to create a new user -->
     <a href="{{ url_for('admin_create_user') }}" class="create-user-link">Crear usuario</a>
+<br>
+<br>
+    <button id="toggleVisibilityBtn" style="margin-bottom: 20px;">Ver usuarios agregados recientemente</button>
 
-    <!-- User list now as a table with header row for column descriptions -->
+    <div class="recent-users-container" id="recentUsersContainer">
+        <h4>Últimos 3 usuarios agregados</h4>
+        <table class="user-list">
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Nombre Completo</th>
+                    <th>Miembro #</th>
+                    <th>Fecha Agregado</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in last_three_users %}
+                    <tr>
+                        <td>{{ user.username }}</td>
+                        <td>{{ user.first_name }} {{ user.last_name }}</td>
+                        <td>{{ user.member_id }}</td>
+                        <td>{{ user.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <h3>Total Usuarios: {{ total_results }}</h3>
+    </div>
+    <h3>Usuarios</h3>
     <table class="user-list">
         <thead>
             <tr>
@@ -52,29 +92,41 @@
             {% endfor %}
         </tbody>
     </table>
-    <a href="{{ url_for('home') }}" class="back-link">⬅ Regresar a inicio</a>
+    <br>
+    <a href="{{ url_for('home') }}" class="back-link">⬅ Regresar</a>
 </div>
 <a href="#" class="back-to-top">Volver arriba ↑</a>
-{% endblock %}
 <script>
-    // Script for the "Back to Top" button
-    let mybutton = document.querySelector(".back-to-top");
-    
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
+document.getElementById('toggleVisibilityBtn').addEventListener('click', function() {
+    var recentUsersContainer = document.getElementById('recentUsersContainer');
+    var toggleBtn = document.getElementById('toggleVisibilityBtn');
+
+    if (recentUsersContainer.style.display === 'none' || recentUsersContainer.style.display === '') {
+        recentUsersContainer.style.display = 'block';
+        toggleBtn.textContent = 'Ocultar usuarios agregados recientemente'; // Change button text to 'Ocultar'
+    } else {
+        recentUsersContainer.style.display = 'none';
+        toggleBtn.textContent = 'Ver usuarios agregados recientemente'; // Change button text back to 'Ver'
     }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    mybutton.addEventListener('click', function(){
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-    });
+});
+
+// Script for the "Back to Top" button
+let mybutton = document.querySelector(".back-to-top");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+}
+
+mybutton.addEventListener('click', function() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
 </script>
 </body>
 </html>

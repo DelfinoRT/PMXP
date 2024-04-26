@@ -6,6 +6,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, EmailField, TelField
 from wtforms.validators import DataRequired, Length, EqualTo, ValidationError, Email
 from werkzeug.security import generate_password_hash, check_password_hash
+from sqlalchemy import or_
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -32,6 +34,8 @@ class User(db.Model, UserMixin):
     aviary = db.Column(db.String(100), nullable=True)
     password_hash = db.Column(db.String(60), nullable=False)
     is_password_changed = db.Column(db.Boolean, default=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
+    last_updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     def set_password(self, password):
       self.password_hash = generate_password_hash(password)
     def check_password(self, password):
@@ -93,9 +97,10 @@ class UserDetailsForm(FlaskForm):
 
 @app.route('/')
 def index():
-    if current_user.is_authenticated:
-        return redirect(url_for('home'))
-    return redirect(url_for('login'))
+    # Instead of redirecting, directly return the home page view.
+    # If you have a specific home page template, render it here.
+    # Note: Ensure that the home page does not require login to access data.
+    return render_template('home.html')
 
 @app.route('/profile')
 @login_required
@@ -138,17 +143,26 @@ def login():
 @app.route("/change_password", methods=['GET', 'POST'])
 @login_required
 def change_password():
-    if not current_user.username.startswith("ADM-"):
-        flash("Password reset is not allowed.", "danger")
-        return redirect(url_for('home'))
     form = ChangePasswordForm()
     if form.validate_on_submit():
         current_user.set_password(form.password.data)
         current_user.is_password_changed = True
         db.session.commit()
-        flash('Your password has been updated!', 'success')
+        flash('Tu contraseña ha sido actualizada.', 'success')
         return redirect(url_for('home'))
-    return render_template('change_password.html', title='Change Password', form=form)
+    return render_template('change_password.html', title='Cambiar Contraseña', form=form)
+
+@app.route("/change_password_user", methods=['GET', 'POST'])
+@login_required
+def change_password_user():
+    form = ChangePasswordForm()
+    if form.validate_on_submit():
+        current_user.set_password(form.password.data)
+        current_user.is_password_changed = True
+        db.session.commit()
+        flash('Tu contraseña ha sido actualizada.', 'success')
+        return redirect(url_for('home'))
+    return render_template('change_password_user.html', title='Cambiar Contraseña', form=form)
 
 @app.route("/admin/create_user", methods=['GET', 'POST'])
 @login_required
@@ -195,10 +209,21 @@ def manage_users():
         return redirect(url_for('home'))
     search_query = request.form.get('search', '')
     if search_query:
-        users = User.query.filter(User.username.contains(search_query)).all()
+        users = User.query.filter(
+            or_(
+                User.username.contains(search_query),
+                User.first_name.contains(search_query),
+                User.last_name.contains(search_query),
+                User.member_id.contains(search_query),
+                User.city.contains(search_query),
+                User.state.contains(search_query)
+            )
+        ).all()
     else:
         users = User.query.all()
-    return render_template('manage_users.html', users=users)
+    total_results = len(users)
+    last_three_users = User.query.order_by(User.created_at.desc()).limit(3).all()
+    return render_template('manage_users.html', users=users, total_results=total_results, last_three_users=last_three_users)
 
 @app.route('/user/<int:user_id>/change_password', methods=['GET', 'POST'])
 @login_required
@@ -249,14 +274,12 @@ def manage_user_details(user_id):
     return render_template('user_details.html', title='User Details', form=form, user_id=user_id)
 
 @app.route('/home')
-@login_required
 def home():
-    # Admin users see the manage users button
-    return render_template('home.html', title='Home')
+        return render_template('home.html', title='Home')
 
 def create_database(app):
     with app.app_context():
         db.create_all()
 if __name__ == '__main__':
     create_database(app)
-#    app.run(debug=True)
+    app.run(debug=True)

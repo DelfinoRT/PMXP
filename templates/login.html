@@ -3,29 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-<h2>Iniciar Sesión</h2>
+{% extends "base.html" %}
+{% block content %}
+<div style="display: flex; justify-content: center; margin-bottom: 20px; margin-top: 20px;"> <!-- Updated for a more commonly supported layout -->
+    <img style="width: 190px;" src="{{ url_for('static', filename='images/pmx-logo-round.png') }}" alt="Logo">
+</div>
+<div class="user-management-container">
 
-{% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-        {% for category, message in messages %}
-        <div class="flash-{{ category }}">{{ message }}</div>
-        {% endfor %}
-    {% endif %}
-{% endwith %}
-
-<form method="POST" action="">
-    {{ form.hidden_tag() }}
-    <p>
-        {{ form.username.label }}<br>
-        {{ form.username(size=32) }}<br>
-    </p>
-    <p>
-        {{ form.password.label }}<br>
-        {{ form.password(size=32) }}<br>
-    </p>
-    <p>{{ form.submit() }}</p>
-</form>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="flash-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    
+    <form method="POST" action="" class="search-form" style="display: block;">
+        <h2>Iniciar Sesión</h2>
+        {{ form.hidden_tag() }}
+        <div>
+            <p>
+                {{ form.username.label }}<br>
+                {{ form.username(size=32, class_='search-input') }}
+            </p>
+        </div>
+        <br>
+        <div>
+            <p>
+                {{ form.password.label }}<br>
+                {{ form.password(size=32, class_='search-input') }}
+            </p>
+        </div>
+        <br>
+        <p>{{ form.submit(value="Iniciar Sesión", class_="submit-button") }}</p>
+        <br>
+        <a href="{{ url_for('home') }}" class="back-link">⬅ Regresar a inicio</a>
+    </form>
+    <br>
+    
+</div>
+{% endblock %}
 </body>
 </html>
