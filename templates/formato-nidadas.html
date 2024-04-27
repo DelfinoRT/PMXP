@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PeriquitosMex - Formatos</title>
+  <!-- External stylesheet for Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <!-- Link to custom stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FH9JT502WW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FH9JT502WW');
+</script>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="hideSmall" id="mySidebar">
+  <br>
+  <div class="container1">
+    <div class="small-logo">
+      <!-- Logo image -->
+      <img src="images/pmx-logo-round.png">
+    </div>
+  </div>
+  <div class="navMenu">
+    <!-- Navigation links -->
+    <a href="index.html" onclick="action_close()" class="navButton">Inicio</a> 
+    <a href="eventos.html" onclick="action_close()" class="navButton">Eventos</a> 
+    <a href="#" onclick="action_close()" class="navButton">Contenido</a> 
+    <a href="#" onclick="action_close()" class="navButton">Miembros</a> 
+    <a href="#" onclick="action_close()" class="navButton">Galería</a>
+    <a href="formatos.html" onclick="action_close()" class="navButton active">Formatos</a>
+    <a href="contacto.html" onclick="action_close()" class="navButton">Contacto</a>
+  </div>
+</nav>
+
+<!-- Top menu only on small screens -->
+<header class="container1 responsiveTitle hideLarge">
+  <!-- Button to open sidebar -->
+  <a href="javascript:void(0)" onclick="action_open()" class="hamburguer">Ξ</a>
+  <span>PeriquitosMex</span>
+</header>
+
+<!-- Dark overlay effect when opening sidebar on small screens -->
+<div class="overlay hideLarge" onclick="action_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<!-- Main content -->
+<div class="mainContainer">
+
+  <div class="container1">
+  </div>
+  <hr>
+  <hr>
+  <form>
+    <div class="form-jaula">
+      <p>Formato para registro de nidadas</p>
+    </div>
+    <div class="form-row">
+      <label>Jaula #:</label>
+      <input type="text" style="text-align: center; font-size: 40px; width: 70px; height: 60px; margin-left: 10px;">
+      <label style="margin-left: 10px;">Aviario:</label>
+      <input type="text" style="text-align: center; font-size: 30px; width: 300px; height: 40px; margin-left: 10px;">
+    </div>
+    <div class="form-row">
+      <label>Anilla Macho:</label>
+      <input type="text" style="text-align: center; width: 170px; height: 20px; margin-left: 10px;">
+      <label style="margin-left: 10px;">Mutación Macho:</label>
+      <input type="text" style=" text-align: center;width: 400px; height: 20px; margin-left: 10px;">
+    </div>
+    <div class="form-row">
+      <label >Anilla Hembra:</label>
+      <input type="text" style="text-align: center; width: 170px; height: 20px; margin-left: 10px;">
+      <label style="margin-left: 10px;">Mutación Hembra:</label>
+      <input type="text" style="text-align: center; width: 400px; height: 20px;  margin-left: 10px;">
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 80px;">Fecha de puesta</th>
+            <th style="width: 10px;">Fértil?</th>
+            <th style="width: 80px;">Fecha de eclosión</th>
+            <th style="width: 130px;">Anilla</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 80px;">Fecha de puesta</th>
+            <th style="width: 10px;">Fértil?</th>
+            <th style="width: 80px;">Fecha de eclosión</th>
+            <th style="width: 130px;">Anilla</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">6</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">9</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="form-row">
+      <label for="notas">Notas de nidada:</label>
+      <textarea id="notas" name="notas" rows="3"></textarea>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 40px;">Sexo</th>
+            <th style="width: 100px;">Mutación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">1</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">2</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">3</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">4</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">5</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 40px;">Sexo</th>
+            <th style="width: 100px;">Mutación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">6</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">7</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">8</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">9</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">10</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
+<hr>
+  <form>
+    <div class="form-jaula">
+      <p>Formato para registro de nidadas</p>
+    </div>
+    <div class="form-row">
+      <label>Jaula #:</label>
+      <input type="text" style="text-align: center; font-size: 40px; width: 70px; height: 60px; margin-left: 10px;">
+      <label style="margin-left: 10px;">Aviario:</label>
+      <input type="text" style="text-align: center; font-size: 30px; width: 300px; height: 40px; margin-left: 10px;">
+    </div>
+    <div class="form-row">
+      <label>Anilla Macho:</label>
+      <input type="text" style="text-align: center; width: 170px; height: 20px; margin-left: 10px;">
+      <label style="margin-left: 10px;">Mutación Macho:</label>
+      <input type="text" style=" text-align: center;width: 400px; height: 20px; margin-left: 10px;">
+    </div>
+    <div class="form-row">
+      <label >Anilla Hembra:</label>
+      <input type="text" style="text-align: center; width: 170px; height: 20px; margin-left: 10px;">
+      <label style="margin-left: 10px;">Mutación Hembra:</label>
+      <input type="text" style="text-align: center; width: 400px; height: 20px;  margin-left: 10px;">
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 80px;">Fecha de puesta</th>
+            <th style="width: 10px;">Fértil?</th>
+            <th style="width: 80px;">Fecha de eclosión</th>
+            <th style="width: 130px;">Anilla</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 80px;">Fecha de puesta</th>
+            <th style="width: 10px;">Fértil?</th>
+            <th style="width: 80px;">Fecha de eclosión</th>
+            <th style="width: 130px;">Anilla</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">6</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">9</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="form-row">
+      <label for="notas">Notas de nidada:</label>
+      <textarea id="notas" name="notas" rows="3"></textarea>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 40px;">Sexo</th>
+            <th style="width: 100px;">Mutación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">1</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">2</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">3</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">4</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">5</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 10px;">#</th>
+            <th style="width: 40px;">Sexo</th>
+            <th style="width: 100px;">Mutación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">6</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">7</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">8</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">9</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">10</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
+  <br>
+  <hr>
+  <br>
+  <a class="ImprimirButton" type='button' href="Javascript:window.print();">Imprimir Formato</a>
+<br>
+<br>
+<br>
+<br>
+<!-- End page content -->
+</div>
+
+<!-- Script for sidebar functionality -->
+<script src="jspdf.umd.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
